@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://wechaty.js.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wechaty.js.org/" rel="alternate" type="text/html" /><updated>2021-05-19T12:29:56+00:00</updated><id>https://wechaty.js.org/feed.xml</id><title type="html">Wechaty</title><subtitle>Conversational RPA SDK for Chatbot Makers</subtitle><entry><title type="html">GSoD’21 Week 1 meeting</title><link href="https://wechaty.js.org/2021/05/16/gsod-2021-week1-meeting/" rel="alternate" type="text/html" title="GSoD’21 Week 1 meeting" /><published>2021-05-16T00:00:00+00:00</published><updated>2021-05-16T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/16/gsod-2021-week1-meeting</id><content type="html" xml:base="https://wechaty.js.org/2021/05/16/gsod-2021-week1-meeting/">&lt;h2 id=&quot;google-season-of-docs21-week-1-meeting&quot;&gt;Google Season of Docs’21 Week 1 meeting&lt;/h2&gt;
+
+&lt;h3 id=&quot;meeting-summary&quot;&gt;Meeting Summary&lt;/h3&gt;
+
+&lt;p&gt;It was the first meeting of GSoD’21 participants after the selection announcement, I was excited to meet them all, I am glad that I got a chance to host this wonderful meeting.&lt;/p&gt;
+
+&lt;p&gt;In this meeting, firstly we had a discussion to set up a day and a time for future meetings, after that every participant gave his week summary and told us about their plans for the upcoming week. After that, we discussed whether we should stretch the main project’s timeline or not. Next Simin leads a discussion about documentation structure and style. Later we had a suggestions/Q&amp;amp;A session, and at last, we took a lovely group photo.&lt;/p&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/y2APh819H1U&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;attendees&quot;&gt;Attendees&lt;/h3&gt;
+
+&lt;p&gt;Total 13 attendees attended the meeting. They are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rohitesh Jain, Volunteer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Sajen Sarvajith, Reconstruct Landing page writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Abhishek Jaiswal, How-to-guide section writer (UTC + 05:30)&lt;/li&gt;
+  &lt;li&gt;Simin Liao, Volunteer (+8:00)&lt;/li&gt;
+  &lt;li&gt;Mukosa Joseph mawa, Introductions and Explanations section writer (UTC +03:00)&lt;/li&gt;
+  &lt;li&gt;Rajiv Ranjan Singh, Improve the gRPC and OpenAPI ecosystem writer, rajivperfect007@gmail.com, IST (UTC +5:30)&lt;/li&gt;
+  &lt;li&gt;Souvik Biswas, Create easy to learn tutorials for beginner users writer, sbis1999@gmail.com (UTC +05:30)&lt;/li&gt;
+  &lt;li&gt;Soumi Bardhan, Improve References section writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Shraddha Vasant Prasad,Improve References sectio writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Shwetal Soni, Create easy to learn tutorials for beginners users writer (UTC +05:30)&lt;/li&gt;
+  &lt;li&gt;Chris Estepa,  Introduction and Explanations sections writer (UTC +08:00)&lt;/li&gt;
+  &lt;li&gt;Vasvi Sood, How to guides, contactvasvisood@gmail.com writer (UTC + 5:30)&lt;/li&gt;
+  &lt;li&gt;Arnab Saha, Reconstruction of Landing page with value propositions writer (UTC + 5:30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/05-gsod-2021-week1-meeting/gsod-meeting-teasor.webp&quot; alt=&quot;Google Season of Docs 2021: Wechaty GSoD'21 Group Photo&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;agendas&quot;&gt;Agendas&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/y2APh819H1U?t=14&quot;&gt;0:00:14&lt;/a&gt; 1. Requesting participants to join the Wechaty mailing list&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/y2APh819H1U?t=50&quot;&gt;0:00:50&lt;/a&gt; 2. Discussion for fixing the day and the time for future meetings.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/y2APh819H1U?t=220&quot;&gt;0:03:40&lt;/a&gt; 3. Week Summaries &amp;amp; plans of the participants&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/y2APh819H1U?t=815&quot;&gt;0:13:35&lt;/a&gt; 4. Discussion for resolving timeline conflicts&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/y2APh819H1U?t=920&quot;&gt;0:15:20&lt;/a&gt; 5. Discussion about documentation structure and style&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/y2APh819H1U?t=2460&quot;&gt;0:41:00&lt;/a&gt; 6. Questions &amp;amp; Comments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can learn more from our &lt;a href=&quot;https://docs.google.com/document/d/1fVCk8qRYc4RKGMf2UY5HOe07hEhPUOpGC34v88GEFJg/edit#heading=h.edr3nzd8l43b&quot;&gt;meeting notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;meeting-outcomes&quot;&gt;Meeting Outcomes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Everyone joined the Wechaty mailing list&lt;/li&gt;
+  &lt;li&gt;Sunday has been voted as the day for the weekly meetings&lt;/li&gt;
+  &lt;li&gt;Future meetings will be scheduled on 19:00 UTC + 8&lt;/li&gt;
+  &lt;li&gt;The main project’s timeline got stretched from 12 to 17 weeks&lt;/li&gt;
+  &lt;li&gt;It’s decided that the project overlaps will be resolved by the next Friday (21 May)&lt;/li&gt;
+  &lt;li&gt;We will be using PR’s for documentation review&lt;/li&gt;
+  &lt;li&gt;It’s decided that there will be no mid review week&lt;/li&gt;
+  &lt;li&gt;Tech writers got to know how they are supposed to contact volunteer(s) based on their preferences which are written in the communication section of the &lt;a href=&quot;https://wechaty.js.org/2021/05/12/gsod-2021-volunteering-proposal/&quot;&gt;volunteer proposal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>rohitesh-kumar-jain</name></author><category term="gsod" /><category term="google" /><category term="gsod" /><category term="event" /><category term="gsod" /><category term="2021" /><category term="zoom" /><category term="docs" /><summary type="html">Google Season of Docs’21 Week 1 meeting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-gsod-2021-week1-meeting/gsod-meeting-teasor.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-gsod-2021-week1-meeting/gsod-meeting-teasor.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Season of Docs 2021 Team Proposal - Introduction and Explanation</title><link href="https://wechaty.js.org/2021/05/13/gsod-2021-improve-introduction-and-explanation-project-joint-proposal/" rel="alternate" type="text/html" title="Google Season of Docs 2021 Team Proposal - Introduction and Explanation" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/13/gsod-2021-improve-introduction-and-explanation-project-joint-proposal</id><content type="html" xml:base="https://wechaty.js.org/2021/05/13/gsod-2021-improve-introduction-and-explanation-project-joint-proposal/">&lt;p&gt;This is the joint project proposal for &lt;strong&gt;Improve the Introduction and Explanations&lt;/strong&gt; secondary project under Google Season of Docs 2021. It is estimated that this project will take approximately &lt;strong&gt;06 weeks&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-writers&quot;&gt;Technical writers&lt;/h2&gt;
+
+&lt;h3 id=&quot;mukosa-joseph-mawa&quot;&gt;Mukosa Joseph Mawa&lt;/h3&gt;
+
+&lt;p&gt;I am a self-taught web developer and technical writer with a passion for open source software. I have published a number of beginner friendly technical articles on &lt;a href=&quot;https://dev.to/nibble&quot;&gt;dev.to&lt;/a&gt; and &lt;a href=&quot;https://www.freecodecamp.org/news/author/joseph/&quot;&gt;freeCodeCamp&lt;/a&gt;. Before transitioning into tech, I was a high school teacher. One of my core responsibilities as a teacher was simplifying and sequencing text written in complex technical language for learners to easily understand. I have also been a frequent contributor to a couple of open source software. Notable ones are &lt;a href=&quot;https://github.com/ocaml/ocaml.org&quot;&gt;ocaml.org&lt;/a&gt; and &lt;a href=&quot;https://github.com/disease-sh/API&quot;&gt;disease.sh&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;chris-estepa&quot;&gt;Chris Estepa&lt;/h3&gt;
+
+&lt;p&gt;Currently, I am a full-time technical writer supporting users how to use their applications by creating how-tos, video tutorials, training materials, FAQs, and requirement analysis documents, among others.&lt;/p&gt;
+
+&lt;p&gt;I love technical writing because it being a combination of communication and technology allows me to write and provide support to users, especially newbies. I know the pain and frustration of not getting the information that the users need and now, I am here to help users through my writing. Through GSOD and Wechaty, I will be able to engage more users to have a wonderful experience with their Wechaty chatbots.&lt;/p&gt;
+
+&lt;h2 id=&quot;proposal-video-presentation&quot;&gt;Proposal Video Presentation&lt;/h2&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/HghT9K8JNSI&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;project-title&quot;&gt;Project title&lt;/h2&gt;
+
+&lt;p&gt;Improve the Introduction and Explanations sections of wechaty.js.org.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-scope&quot;&gt;Project scope&lt;/h2&gt;
+
+&lt;p&gt;The scope of this project is limited to improving the Introduction and Explanation sections of the wechaty.js.org website.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-goal&quot;&gt;Project goal&lt;/h2&gt;
+
+&lt;p&gt;Our goal is for users not to lose interest upon landing on the Wechaty site. We plan to make the Introduction section succinct and engaging by also showing them what they are looking for and what they will be getting when they start creating their very own chatbots. More useful information will be shown in Explanations, to help users further understand and appreciate what Wechaty can do for them. We aim to have a strong documentation that would stand the test of time.&lt;/p&gt;
+
+&lt;h2 id=&quot;analysis-of-the-introduction-and-explanations-sections-of-wechatyjsorg&quot;&gt;Analysis of the Introduction and Explanations sections of wechaty.js.org&lt;/h2&gt;
+
+&lt;p&gt;After the analysis of the &lt;strong&gt;Introduction and Explanations&lt;/strong&gt; sections, the following issues have been identified:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There are irrelevant content which are not suitable for the introduction.&lt;/li&gt;
+  &lt;li&gt;There are missing and incomplete pieces of information.&lt;/li&gt;
+  &lt;li&gt;Provided explanations are not comprehensive and incoherent.&lt;/li&gt;
+  &lt;li&gt;The sections are poorly structured.&lt;/li&gt;
+  &lt;li&gt;There are lots of typos and grammatical errors.&lt;/li&gt;
+  &lt;li&gt;The section is too long for an introduction.&lt;/li&gt;
+  &lt;li&gt;The sections are too nested and as a result, hiding certain information which should be on the front page.&lt;/li&gt;
+  &lt;li&gt;Some pages lack visual representation that would be comprehensive to users.&lt;/li&gt;
+  &lt;li&gt;Some information may not be understood easily by non-technical users.&lt;/li&gt;
+  &lt;li&gt;Some pages need a more straightforward explanation.
+Some descriptions in the explanations are not comprehensive
+There are many blank and orphaned pages.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;purpose-of-introduction-section-of-wechatyjsorg&quot;&gt;Purpose of Introduction section of wechaty.js.org&lt;/h2&gt;
+
+&lt;p&gt;The introduction section of wechaty.js.org serves the following purposes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Help technical and non-technical people understand what Wechaty is.&lt;/li&gt;
+  &lt;li&gt;Help potential individual and institutional users of Wechaty understand some of the business challenges/problems they can solve by using Wechaty.&lt;/li&gt;
+  &lt;li&gt;Help total beginners understand how to start using or learning Wechaty.&lt;/li&gt;
+  &lt;li&gt;Helps the user understand why and what sets Wechaty apart from other chatbot makers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;purpose-of-explanation-section-of-wechatyjsorg&quot;&gt;Purpose of explanation section of wechaty.js.org&lt;/h2&gt;
+
+&lt;p&gt;The explanation section of wechaty.js.org serves the following purposes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Describe other concrete pieces of information which have not been covered in other areas of the documentation in an easy manner understood by all types of users esp. non-technical users.&lt;/li&gt;
+  &lt;li&gt;Deepen and enrich users’ knowledge of Wechaty by providing alternative/contrary viewpoints and approaches than what has been presented in other sections of the documentation.&lt;/li&gt;
+  &lt;li&gt;Educate users and arouse their interest by showing the technical, non-technical and business side of WeChaty which have not been covered in other sections of the documentation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;project-approach&quot;&gt;Project approach&lt;/h2&gt;
+
+&lt;p&gt;This is a brief overview of how we intend to approach the project in an attempt to solve the identified problems. This plan will change as feedback is sought from the stakeholders. We propose the current Introduction section to be replaced by the following content. This however will mostly depend on the final decision on how the entire wechaty.js.org is to be designed, or structured since there are quite a number of technical writers writing proposals on how to improve the different sections of wechaty.js.org.&lt;/p&gt;
+
+&lt;h3 id=&quot;proposed-content-for-introduction-section&quot;&gt;Proposed content for Introduction section&lt;/h3&gt;
+
+&lt;p&gt;It is proposed that the following questions should be used as guide when writing the introduction section:&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-wechaty&quot;&gt;What is Wechaty?&lt;/h4&gt;
+
+&lt;p&gt;This section should include the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Brief introduction to what Wechaty is&lt;/p&gt;
+
+    &lt;p&gt;This must be written for both technical and non technical audiences. Meaning of acronyms such as IM, SDK, etc. should be made explicitly clear by linking to their full versions. Thus, whoever is not familiar with it can look it up and understand what is being talked about.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Who are the People/Companies behind Wechaty?&lt;/p&gt;
+
+    &lt;p&gt;Who are the original creators of Wechaty? When was it created? Are there companies, individuals, government, and entities supporting the development of Wechaty? Are there companies who have supported the development of Wechaty in the past or planning to provide support in the future?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How many releases have been made since its creation?&lt;/p&gt;
+
+    &lt;p&gt;What is the current stable version of Wechaty? How many releases have been made since its creation? Are there plans for another major release? Are there ongoing major projects around Wechaty at the moment?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Original motivation for creating Wechaty&lt;/p&gt;
+
+    &lt;p&gt;What was the story behind Wechaty? Every software project must seek to provide a solution to a business or societal problem. What were the founders of Wechaty seeking to solve by starting Wechaty? This area will need a lot of input from the creators of Wechaty.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The long term Vision and Mission of Wechaty&lt;/p&gt;
+
+    &lt;p&gt;This must be well thought of because it will give a sense of confidence to users of Wechaty about long term support and development. A person who wishes to solve a business problem using Wechaty should feel confident that there are visionary people committed to the long term development of the software their business runs on. This area will also need a lot of input from the creators of Wechaty.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;what-can-you-do-with-wechaty&quot;&gt;What can you do with Wechaty?&lt;/h4&gt;
+
+&lt;p&gt;This section should comprehensively cover the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;What problems can businesses/ individuals solve with Wechaty?&lt;/p&gt;
+
+    &lt;p&gt;This section will give a Wechaty user the motivation to learn and use Wechaty if it is properly articulated. It gives users a sense of purpose if they notice that Wechaty is capable of solving a business challenge that they are facing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What business problems have been solved by using Wechaty?&lt;/li&gt;
+  &lt;li&gt;How has Wechaty solved the problems of people/businesses?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;who-is-using-wechaty&quot;&gt;Who is using Wechaty?&lt;/h4&gt;
+
+&lt;p&gt;In this section, we need to get testimonials from people/businesses who have used Wechaty before and how they find Wechaty. What are they saying about Wechaty? How has Wechaty solved their problem?
+This section should seek to comprehensively answer the following questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Which companies/individuals are using Wechaty?&lt;/li&gt;
+  &lt;li&gt;Are there testimonials from users of Wechaty on the value it has delivered to their businesses? Here, we also need to provide links to the live Projects built using Wechaty.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;proposed-content-for-explanations-section&quot;&gt;Proposed content for Explanations section&lt;/h3&gt;
+
+&lt;p&gt;The Explanation section is primarily for broadening the documentation’s coverage of the different topics therefore its content will very much depend on the other sections of the documentation. The outline below is not cast in stone. Some items might be removed or added as the different projects evolve.&lt;/p&gt;
+
+&lt;p&gt;It is proposed that the following should be used as guide when writing the Explanation section:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Overview&lt;/p&gt;
+
+    &lt;p&gt;This will be discussed based on a high level perspective but in a way that most users (esp. newbies) would understand. This page will let users know other information that they have to know. In order to do this, we will need more information from the subject-matter experts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lifecycle&lt;/p&gt;
+
+    &lt;p&gt;A concise explanation on the typical phases in the development (including some activities and deliverables being done) of Wechaty to inform users, sponsors, and investors about what is happening with the project.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Architecture&lt;/p&gt;
+
+    &lt;p&gt;A short but thorough chatbot architecture must be explained here. A diagram would also make the explanation clearer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Alternatives&lt;/p&gt;
+
+    &lt;p&gt;In this section we shall present alternatives to Wechaty.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Testing&lt;/p&gt;
+
+    &lt;p&gt;An overview on how we perform testing is imperative so that users would know what is being tested, what to expect and not to expect, and learn more about the bugs and defects that we encounter while using Wechaty. Other types of issues can be discussed here, including the types of actions and expected output or solutions.
+Triaging of bugs and issues may be clearly specified here, by highlighting the issues and the bugs that need intensive testing. Priorities may also be established including the severity of the bugs, whereby the Wechaty team would know what the problems are and how to deal with them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;DevOps CI/CD&lt;/p&gt;
+
+    &lt;p&gt;We can explain how WeChaty uses and benefits from DevOps and CI/CD processes. Some information is needed from the SMEs to expound this.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Software Development Kit (SDK)&lt;/p&gt;
+
+    &lt;p&gt;Conversational and Robotic Process Automation SDK information will be discussed here.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Troubleshooting&lt;/p&gt;
+
+    &lt;p&gt;In this section, we will determine and pinpoint the most difficult and most common problems that users encounter. On the spot solutions are provided here to enable users to learn what to do first hand upon encountering issues.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proposed-solution&quot;&gt;Proposed solution&lt;/h2&gt;
+
+&lt;p&gt;We propose to improve the structure and documentation approach of the Introduction and Explanations sections. These are critical sections that any user must read to fully understand what Wechaty is all about.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-to-dos-or-suggestions&quot;&gt;Other to-dos or suggestions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Include a diagram, workflow, or any other visual representation to make the sections more comprehensive and informative.&lt;/li&gt;
+  &lt;li&gt;Include Other Related Pages links for better and easier navigation.&lt;/li&gt;
+  &lt;li&gt;Include a Contact Us page that contains some support links or a form where users can write their questions and suggestions.&lt;/li&gt;
+  &lt;li&gt;Include testing and friction logs that will serve as good references in the future.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;things-to-pay-attention-to-while-writing-the-introduction-and-explanations-sections&quot;&gt;Things to pay attention to while writing the introduction and explanations sections&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use simple English that a non-native speaker can easily understand without having to look for the meaning of words or phrases.&lt;/li&gt;
+  &lt;li&gt;Avoid long sentences.&lt;/li&gt;
+  &lt;li&gt;Minimize use of acronyms and initialisms.&lt;/li&gt;
+  &lt;li&gt;Avoid unnecessary long paragraphs which might confuse beginners.&lt;/li&gt;
+  &lt;li&gt;Use formal language.&lt;/li&gt;
+  &lt;li&gt;Be gender-sensitive. Gender neutral language is better.&lt;/li&gt;
+  &lt;li&gt;Pay attention to grammar and spelling.&lt;/li&gt;
+  &lt;li&gt;Pay attention to technical accuracy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proposed-timeline&quot;&gt;Proposed timeline&lt;/h2&gt;
+
+&lt;p&gt;It is estimated that this project will take six weeks. Below is the estimated timeline and the subtasks which will be accomplished. It is worth pointing out that the processes below are not linear. They are iterative, cyclical, and can change whenever feedback is received from different stakeholders and therefore, incorporated in the project.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Week 1: &lt;strong&gt;Hiring process&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Refining proposal to meet stakeholder needs/expectations&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Week 2: &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;What is wechaty section&lt;/li&gt;
+      &lt;li&gt;What can you do with wechaty section&lt;/li&gt;
+      &lt;li&gt;Who is using Wechaty section&lt;/li&gt;
+      &lt;li&gt;Integrating feedback from stakeholders&lt;/li&gt;
+      &lt;li&gt;Miscellaneous&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Week 3: &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Getting started with Wechaty&lt;/li&gt;
+      &lt;li&gt;Main concepts in Wechaty&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Week 4: &lt;strong&gt;Explanation&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Life Cycle&lt;/li&gt;
+      &lt;li&gt;Architecture&lt;/li&gt;
+      &lt;li&gt;Testing&lt;/li&gt;
+      &lt;li&gt;Troubleshooting&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Week 5: &lt;strong&gt;Explanation&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;DevOps CI/CD&lt;/li&gt;
+      &lt;li&gt;SDK&lt;/li&gt;
+      &lt;li&gt;Troubleshooting&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Week 6: &lt;strong&gt;Project Evaluation&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Project Evaluation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;project-budget&quot;&gt;Project budget&lt;/h2&gt;
+
+&lt;p&gt;The project budget is 1000USD which will be shared equally between the two technical writers&lt;/p&gt;</content><author><name>nibble0101</name></author><category term="gsod" /><category term="google" /><category term="gsod" /><category term="2021" /><category term="docs" /><category term="tutorials" /><category term="project" /><category term="proposal" /><category term="team-proposal" /><summary type="html">This is the joint project proposal for Improve the Introduction and Explanations secondary project under Google Season of Docs 2021. It is estimated that this project will take approximately 06 weeks.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-gsod-2021-improve-introduction-and-explanation-project-joint-proposal/introduction-and-explanation.png" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-gsod-2021-improve-introduction-and-explanation-project-joint-proposal/introduction-and-explanation.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Season of Docs 2021 Team Proposal: How-to Guides</title><link href="https://wechaty.js.org/2021/05/12/gsod-2021-how-to-guide-team-proposal/" rel="alternate" type="text/html" title="Google Season of Docs 2021 Team Proposal: How-to Guides" /><published>2021-05-12T00:00:00+00:00</published><updated>2021-05-12T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/12/gsod-2021-how-to-guide-team-proposal</id><content type="html" xml:base="https://wechaty.js.org/2021/05/12/gsod-2021-how-to-guide-team-proposal/">&lt;p&gt;This is the project proposal for &lt;strong&gt;Wechaty How-to-guide&lt;/strong&gt; documentation on which we will be working as a part of Google Season of Docs 2021. We have proposed our timeline so as to complete this work during a span of &lt;strong&gt;09 weeks&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;team-members&quot;&gt;Team members&lt;/h2&gt;
+
+&lt;h3 id=&quot;vasvi-sood-email-contactvasvisoodgmailcom&quot;&gt;Vasvi Sood (email: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;contactvasvisood@gmail.com&lt;/code&gt;)&lt;/h3&gt;
+
+&lt;p&gt;I am a sophomore at NIT, Hamirpur. I am a Tech enthusiast and a story writer. For me combining technology with my writing skills  is a natural match. I am passionate about blockchain technology. I am also into competitive programming these days.&lt;/p&gt;
+
+&lt;p&gt;Github Handle: &lt;a href=&quot;https://github.com/vasvi-sood&quot;&gt;https://github.com/vasvi-sood&lt;/a&gt;&amp;lt;/br&amp;gt;
+Medium: &lt;a href=&quot;https://vasvisood1.medium.com/&quot;&gt;https://vasvisood1.medium.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;abhishek-jaiswal-email-abhishekiiitbbsrgmailcom&quot;&gt;Abhishek Jaiswal (email: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;abhishek.iiitbbsr@gmail.com&lt;/code&gt;)&lt;/h3&gt;
+
+&lt;p&gt;Myself Abhishek Jaiswal,a CSE sophomore UG student currently pursuing my B.Tech from IIIT Bhubaneswar.It’s now been more than 8 month, I started writing technical blogs,tutorials,documentation and reviews.I have published many technical with medium and Analytics Vidhya, Devtutorials and Hashnode. I want to learn, build, grow my network, and want to transform open innovation projects into powerful real-world services.&lt;/p&gt;
+
+&lt;p&gt;Github Handle: &lt;a href=&quot;https://github.com/abhishek-iiit&quot;&gt;https://github.com/abhishek-iiit&lt;/a&gt;&amp;lt;/br&amp;gt;
+Medium: &lt;a href=&quot;https://abhishek-iiit.medium.com/&quot;&gt;https://abhishek-iiit.medium.com/&lt;/a&gt;&amp;lt;/br&amp;gt;
+Hashnode: &lt;a href=&quot;https://abhishek-iiit.hashnode.dev/&quot;&gt;https://abhishek-iiit.hashnode.dev/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;proposal-video-presentation&quot;&gt;Proposal Video Presentation&lt;/h2&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/tlOc-ZllV3c&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;How to Guide is important because it guides us through the steps involved in addressing key problems and use-cases. They are more advanced than tutorials and assume knowledge of how the product works. On an average 45 - 50% of developers refer to How to guide. It contains  instructions on how to use the program, its features and other inbuilt applications as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;current-state&quot;&gt;Current State&lt;/h2&gt;
+
+&lt;p&gt;Currently, the introduction page is available on its &lt;a href=&quot;https://wechaty.js.org/docs/howto/&quot;&gt;official website&lt;/a&gt;. It is obsolete, incomplete and misses information, and does not cover the example images of the steps involved that one needs to get when landing on the How to Guide section.&lt;/p&gt;
+
+&lt;h2 id=&quot;analysis&quot;&gt;Analysis&lt;/h2&gt;
+
+&lt;p&gt;Huan and we(Vasvi and Abhishek) had a conversation about the changes that are to be made with the current How-to-Guide section.He said that the community expects to improve and have a new overall structure of this section. The links he shared with us can be found &lt;a href=&quot;https://wechaty.js.org/docs/howto/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-is-your-proposed-user-documentation-an-improvement-over-the-current-one&quot;&gt;Why is your proposed user documentation an improvement over the current one?&lt;/h2&gt;
+
+&lt;p&gt;The proposed How to Guide page will be structured to improve and ensure efficiency, consistency, and peace of mind for any end user. It will contain all the information about how to use the bot and its associated images, including its details and some little explanations on how to use each feature of the Wechaty. It will be kept up to date and have notes to follow inorder to learn by doing.&lt;/p&gt;
+
+&lt;h2 id=&quot;proposed-changes&quot;&gt;Proposed Changes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;No overview section&lt;/strong&gt;: It is theoretical and can get boring for the users to go through an entire page just containing an Overview.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Create a Bot&lt;/strong&gt;: A simple step by step guide to create a bot using Wechaty. (Installing the bot will be covered in this section only)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Add events to your bot&lt;/strong&gt;: Explaining what an event is, emphasising how it can add more value to the bot functionality (adding various use cases as well)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Add more functionality to your bot&lt;/strong&gt; (All the  work that can be automated with the bot):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Dealing with messages&lt;/strong&gt;: Step by step guide on writing code for dealing with messages giving a short but clear example.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Manage Contacts&lt;/strong&gt;: Step by step guide on writing code for managing contacts giving a short but clear example.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Manage Rooms&lt;/strong&gt;: Define a room. Step by step guide on writing code for managing rooms giving a short but clear example.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Send and Accept Friend Requests&lt;/strong&gt;: Step by step guide on writing code for sending and accepting friend requests giving a short but clear example.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sending and Receiving files&lt;/strong&gt;: Step by step guide on writing code for sending and receiving files(data) giving a short but clear example.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Testing your bot&lt;/strong&gt;: Step by step guide on writing code for testing the bot giving a short but clear example.Puppet Mocker &amp;amp; Starter Template are included in this section.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deploying&lt;/strong&gt;: A short introduction to Wechaty puppet. This should include a step by step guide to deploy the bot on various instant message systems:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Wechat&lt;/li&gt;
+  &lt;li&gt;Whatsapp&lt;/li&gt;
+  &lt;li&gt;TikTok&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;project-goals&quot;&gt;Project Goals&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get the user familiar with Wechaty by this Guide&lt;/li&gt;
+  &lt;li&gt;Build a step by step how-to guide, without emphasizing on abstract concepts&lt;/li&gt;
+  &lt;li&gt;Include various use cases&lt;/li&gt;
+  &lt;li&gt;Add numerous examples and images&lt;/li&gt;
+  &lt;li&gt;Translate to English and add code snippets wherever necessary&lt;/li&gt;
+  &lt;li&gt;Make sure that the how to guide page works all the time&lt;/li&gt;
+  &lt;li&gt;Ensure the user sees results immediately by integrating it with webapp&lt;/li&gt;
+  &lt;li&gt;Focus on concrete steps, not abstract concepts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;timeline&quot;&gt;Timeline&lt;/h2&gt;
+
+&lt;h3 id=&quot;week-1&quot;&gt;Week 1&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This week we will concentrate on community  bonding and get familiar with the project with the help of mentors.&lt;/li&gt;
+  &lt;li&gt;We will chalk out a blueprint for carrying out the complete project.&lt;/li&gt;
+  &lt;li&gt;Add a README file to GitHub to help future contributors understand how to contribute to the How-to-guide page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-2&quot;&gt;Week 2&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a Bot: It will contain code snippets along with examples on setting up a bot by the user.&lt;/li&gt;
+  &lt;li&gt;Install Wechaty: It will link to Wechaty’s starter github template and will have a step by step guide on cloning and running instructions.&lt;/li&gt;
+  &lt;li&gt;Add the missing parts (TBW) to different programming languages.&lt;/li&gt;
+  &lt;li&gt;Add Related Image to each section to make it more interactive and more engaging.&lt;/li&gt;
+  &lt;li&gt;Verify working of the code in each programming language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-3&quot;&gt;Week 3&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add Events to your bot: Define what an event is. Provide code snippets along with a brief paragraph about when to use an event. Include code snippets and examples.&lt;/li&gt;
+  &lt;li&gt;Add Related Image to the section to make it more interactive and more engaging.&lt;/li&gt;
+  &lt;li&gt;Add the missing parts (TBW) to different programming languages.&lt;/li&gt;
+  &lt;li&gt;Verify working of the code in each programming language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-4&quot;&gt;Week 4&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add more functionality to your bot:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Dealing with messages: Step by step guide on writing code for dealing with messages giving a short but clear example.&lt;/li&gt;
+  &lt;li&gt;Manage Contacts: Step by step guide on writing code for managing contacts giving a short but clear example.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add Related Image to each subsection to make it more interactive and more engaging.&lt;/li&gt;
+  &lt;li&gt;Add the missing parts (TBW) to different programming languages.&lt;/li&gt;
+  &lt;li&gt;Verify working of the code in each programming language&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-5&quot;&gt;Week 5&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add more functionality to your bot:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Manage Rooms: Define a room. Step by step guide on writing code for managing rooms giving a short but clear example.&lt;/li&gt;
+  &lt;li&gt;Send and Accept Friend Requests: Step by step guide on writing code for sending and accepting friend requests giving a short but clear example.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add Related Image to each subsection to make it more interactive and more engaging.&lt;/li&gt;
+  &lt;li&gt;Add the missing parts (TBW) to different programming languages.&lt;/li&gt;
+  &lt;li&gt;Verify working of the code in each programming language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-6&quot;&gt;Week 6&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add more functionality to your bot:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sending and Receiving files : Step by step guide on writing code for sending and receiving files(data) giving a short but clear example.&lt;/li&gt;
+  &lt;li&gt;Testing your bot: Step by step guide on writing code for testing the bot giving a short but clear example.Puppet Mocker &amp;amp; Starter Template are included in this section.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add Related Image to each subsection to make it more interactive and more engaging.&lt;/li&gt;
+  &lt;li&gt;Add the missing parts (TBW) to different programming languages.&lt;/li&gt;
+  &lt;li&gt;Verify working of the code in each programming language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-7&quot;&gt;Week 7&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deploying : A short introduction to Wechaty puppet. This should include a step by step guide to deploy the bot on various instant message systems:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Wechat&lt;/li&gt;
+  &lt;li&gt;Whatsapp&lt;/li&gt;
+  &lt;li&gt;TikTok&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add Related Image to each subsection to make it more interactive and more engaging.&lt;/li&gt;
+  &lt;li&gt;Add the missing parts (TBW) to different programming language&lt;/li&gt;
+  &lt;li&gt;Verify working of the code to each programming language&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(Code for other IM systems also to be included if required)&lt;/p&gt;
+
+&lt;h3 id=&quot;week-8&quot;&gt;Week 8&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Proofreading the existing tutorials.&lt;/li&gt;
+  &lt;li&gt;Fixing typos and making minor changes to the documentation, if required.&lt;/li&gt;
+  &lt;li&gt;Work on improving the existing topics if required.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-9&quot;&gt;Week 9&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adding various images and screenshots,wherever possible.&lt;/li&gt;
+  &lt;li&gt;Request the mentor feedback&lt;/li&gt;
+  &lt;li&gt;Work on improvements suggested by the mentor.&lt;/li&gt;
+  &lt;li&gt;Submit a project report for evaluation to the mentors&lt;/li&gt;
+  &lt;li&gt;Write and submit a report of our experience as  participants’ in Season of Docs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;team-goals&quot;&gt;Team Goals&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Have a weekly open discussion about the project.&lt;/li&gt;
+  &lt;li&gt;Make strategories/plan for the upcoming week together.&lt;/li&gt;
+  &lt;li&gt;Examine each other’s work and help out each other.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proposed-budget&quot;&gt;Proposed Budget&lt;/h2&gt;
+
+&lt;p&gt;For the How-to-guide section, we have an overall budget of 1000 USD which we intend to divide equally.&lt;/p&gt;</content><author><name>abhishek</name></author><category term="gsod" /><category term="tutorials" /><category term="project" /><category term="proposal" /><category term="team-proposal" /><category term="google" /><category term="gsod" /><category term="2021" /><category term="docs" /><summary type="html">This is the project proposal for Wechaty How-to-guide documentation on which we will be working as a part of Google Season of Docs 2021. We have proposed our timeline so as to complete this work during a span of 09 weeks.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-gsod-2021-how-to-guide-team-proposal/gsod.png" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-gsod-2021-how-to-guide-team-proposal/gsod.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Season of Docs 2021 Team Proposal: Reconstruct Wechaty landing page with value propositions</title><link href="https://wechaty.js.org/2021/05/12/gsod-2021-reconstruct-landing-page-team-proposal/" rel="alternate" type="text/html" title="Google Season of Docs 2021 Team Proposal: Reconstruct Wechaty landing page with value propositions" /><published>2021-05-12T00:00:00+00:00</published><updated>2021-05-12T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/12/gsod-2021-reconstruct-landing-page-team-proposal</id><content type="html" xml:base="https://wechaty.js.org/2021/05/12/gsod-2021-reconstruct-landing-page-team-proposal/">&lt;h2 id=&quot;team-members&quot;&gt;Team Members&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Name :&lt;/strong&gt; sajen sarvajith k, Arnab Saha&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Email :&lt;/strong&gt; (Sajen) &lt;a href=&quot;mailto:sajenjeshan1222@gmail.com&quot;&gt;sajenjeshan1222@gmail.com&lt;/a&gt;, (Arnab) &lt;a href=&quot;mailto:arnabsaha285@gmail.com&quot;&gt;arnabsaha285&lt;/a&gt;&lt;a href=&quot;mailto:arnabsaha285@gmail.com&quot;&gt;@gmail.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GitHub :&lt;/strong&gt; (Sajen) &lt;a href=&quot;https://github.com/sajenjeshan1222&quot;&gt;https://github.com/sajenjeshan1222&lt;/a&gt;,
+(Arnab) &lt;a href=&quot;https://github.com/encodeArnab&quot;&gt;https://github.com/encodeArnab&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Telephone :&lt;/strong&gt; (Sajen) +91 9150165487, (Arnab) +91 9625511367&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Time Zone :&lt;/strong&gt; Asia / Kolkata (GMT+5:30) - IST&lt;/p&gt;
+
+&lt;h2 id=&quot;proposal-video-presentation&quot;&gt;Proposal Video Presentation&lt;/h2&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/y1DBcSEu0b4&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;motivation-sajen-sarvajith&quot;&gt;Motivation (sajen sarvajith)&lt;/h3&gt;
+
+&lt;p&gt;My passion in deep learning, Natural Language Processing and documentation and my interest to work for an internationally reputed open source organisation made me apply for this Wechaty project.&lt;/p&gt;
+
+&lt;p&gt;Ideally this project will allow me the opportunity to utilize my experience gained as an Wechaty GSoD intern. I believe that there is no better place to continue my coding and documentation skills through this platform.&lt;/p&gt;
+
+&lt;p&gt;I consider it a vibrant experience to get the opportunity to meet mentors from all over the world and learn about new technologies. I am a very diligent and highly motivated student, and I am certain to push through with dedication. I have always worked to accomplish my goals and gain more knowledge and insight into quantum neural networks, deep learning and documentation. I will be able to contribute to this community in the best way I can.&lt;/p&gt;
+
+&lt;h4 id=&quot;project-title&quot;&gt;Project Title&lt;/h4&gt;
+
+&lt;p&gt;&quot;Reconstruct Wechaty landing page with value propositions&quot;&lt;/p&gt;
+
+&lt;h3 id=&quot;synopsis&quot;&gt;Synopsis&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Abstract&lt;/li&gt;
+  &lt;li&gt;Structure for the proposed documentation&lt;/li&gt;
+  &lt;li&gt;Task&lt;/li&gt;
+  &lt;li&gt;Expected Results&lt;/li&gt;
+  &lt;li&gt;Implementation/Approach&lt;/li&gt;
+  &lt;li&gt;Timeline&lt;/li&gt;
+  &lt;li&gt;Conclusion&lt;/li&gt;
+  &lt;li&gt;Additional Idea&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Most of the new users come to wechaty website by landing on the landing &lt;a href=&quot;https://wechaty.js.org/&quot;&gt;homepage&lt;/a&gt;. Unfortunately, the landing page is too simple and lacks enough information for new users, especially no value proposition. This problem leads to losing lots of new users, or making new users take more time to understand what wechaty can do and why we are the best.&lt;/p&gt;
+
+&lt;p&gt;In online marketing, landing pages are used to drive visitors towards conversion by getting them to click through to specific action. That action could be anything from encouraging users to make purchases on an online store or in our case to make use of wechaty or countless other actions. Whatever it is, there should be just one, clearly-defined &lt;a href=&quot;https://en.wikipedia.org/wiki/Call_to_action_(marketing)&quot;&gt;CTA (call-to-action)&lt;/a&gt;. As opposed to being a full-blown professional website, a landing page is a single page with a highly specific target: getting visitors to click through to our end goal.&lt;/p&gt;
+
+&lt;p&gt;This project aims to improve/reconstruct the wechaty homepage completely with value propositions. I think that landing page is the key of wechaty to attract more users because everytime when a user comes the first thing they see about wechaty is the landing page, so the landing page should be well designed, attractive and explain about the wechaty in a short, sweet and uncluttered manner.&lt;/p&gt;
+
+&lt;h3 id=&quot;structure-for-the-proposed-documentation&quot;&gt;Structure for the proposed documentation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The proposed Structure of the Landing page is as follows:&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Introduction Section:&lt;/strong&gt; Describe about Wechaty and various products and services it offers. It will also contain value propositions. Wechaty helps in creating a bot with just 6 lines of code! This is a strong point for attracting users to Wechaty.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recent Blogs:&lt;/strong&gt; The section should include 2-3 recent highlighted blogs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;User Experience:&lt;/strong&gt; The landing page should contain a section for testimonials of the customers of Wechaty, so that customers are attracted. It can act as a powerful tool for persuasion.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; A section to demonstrate the various use cases to excite the developers and encourage them to try the product .&lt;/li&gt;
+  &lt;li&gt;Consist of a &lt;strong&gt;navbar&lt;/strong&gt; to navigate to various sections.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an example design for Wechaty Landing Page (as per available insights and can be changed based on mentor and community suggestions)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/05-gsod-2021-reconstruct-landing-page-team-proposal/example-lp.png&quot; alt=&quot;Example Design&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Complete Design can be viewed&lt;/strong&gt; &lt;a href=&quot;https://www.figma.com/file/4mW0KnuJoBOdf5sFZ15kha/Wechaty?node-id=1%3A2&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;task&quot;&gt;Task&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To reconstruct landing page with value propositions&lt;/li&gt;
+  &lt;li&gt;Identify all the benefits of wechaty offers&lt;/li&gt;
+  &lt;li&gt;Describe what makes these benefits valuable&lt;/li&gt;
+  &lt;li&gt;Identify our new users main problem&lt;/li&gt;
+  &lt;li&gt;Connect this value to our users problem&lt;/li&gt;
+  &lt;li&gt;Differentiate wechaty as the preferred provider of this value&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;expected-results&quot;&gt;Expected Results&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A clean and a well constructed landing page with value proposition&lt;/li&gt;
+  &lt;li&gt;This will have reconstruction plan and other details that is provided &lt;a href=&quot;https://wechaty.js.org/2021/05/01/landing-page-value-proposition/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Provide high-quality content that inspires confidence&lt;/li&gt;
+  &lt;li&gt;Make it easy to convert&lt;/li&gt;
+  &lt;li&gt;Have a flawless design&lt;/li&gt;
+  &lt;li&gt;Have a clear call to action&lt;/li&gt;
+  &lt;li&gt;Create eye catching headlines&lt;/li&gt;
+  &lt;li&gt;Contain engaging copy&lt;/li&gt;
+  &lt;li&gt;Make it about the visitors&lt;/li&gt;
+  &lt;li&gt;Make use of videos where appropriate&lt;/li&gt;
+  &lt;li&gt;Should be easy to scan at a quick glance&lt;/li&gt;
+  &lt;li&gt;Contain relevant, quality images&lt;/li&gt;
+  &lt;li&gt;Look gorgeous and act classy&lt;/li&gt;
+  &lt;li&gt;Broadcast users trust signals&lt;/li&gt;
+  &lt;li&gt;Have been through many rounds of testing&lt;/li&gt;
+  &lt;li&gt;Have conversion tracking turned on&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Implementation / Approach:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Below explanation regarding the significant steps for this landing page with value proposition&lt;/p&gt;
+
+&lt;h4 id=&quot;set-campaign-goal&quot;&gt;Set Campaign Goal&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Every great landing page starts with a clear and measurable goal. This will help to figure out what element we need on wechaty landing page, how to write a copy, and the &lt;a href=&quot;https://wechaty.js.org/2021/05/01/landing-page-value-proposition/&quot;&gt;template&lt;/a&gt; we should use.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;write-a-copy&quot;&gt;Write a Copy&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;While most folks are eager to jump ahead and get designing, It's usually better to start with a copy first and I have planned to start with a copy. The unbounce conversion intelligence machine learning model has proven that landing page copy is twice as important to conversion rate as design.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;nail-the-headline&quot;&gt;Nail the Headline&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We've got less than 15 seconds to grab a visitors attention on our landing page this means headline is probably the most important thing&lt;/li&gt;
+  &lt;li&gt;I will make sure that it's memorable, clear, and solves the problem of wechaty visitors care about the most&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;focus-on-benefits&quot;&gt;Focus on Benefits&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Visitors want to hear about how wechaty solves its problems, how wechaty product will help make their lives easier, and why this will be benefit them.&lt;/li&gt;
+  &lt;li&gt;I will think think from the ideal visitor's perspective and list all the benefits of wechaty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;keep-simple&quot;&gt;Keep Simple&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In general, landing pages tend to convert better when they are easy to read and not overlay long&lt;/li&gt;
+  &lt;li&gt;I will built this landing page by complicated business jargon, keep the sentence short and try to cut out the unnecessary bits that wechat new visitors don't actually need on the page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;craft-cta&quot;&gt;Craft CTA&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The CTA (or call to action) is what we want our visitors to actually do on our landing page. This can take the shape of a form or a click-through button. Take some time to decide what action our visitors to take and the best we can do is convince them to take it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make it specific&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;While CTA buttons like &quot;Learn More&quot; or &quot;Get Started&quot; can work and they're also pretty vague. Visitors won't know what to expect when they click a button like that.&lt;/li&gt;
+      &lt;li&gt;I will be more specific and descriptive to get better results.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make it Simple&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;All the things, words and explanations should be simple and clear to make wechaty users to understand easily&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make it Singular&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The advantage of landing mage is that it eliminates all the other distractions we find on websites.&lt;/li&gt;
+      &lt;li&gt;I will give wechaty users only one path forward to take. Avoid featuring navigation links to other pages, headers, footers, or any other calls or action.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;select-images&quot;&gt;Select Images&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I will work on the visuals of the landing page. Start out by selecting what images we want to feature and check whether those are wechaty bot working images or custom illustrations&lt;/li&gt;
+  &lt;li&gt;Choose a Great Image
+    &lt;ul&gt;
+      &lt;li&gt;The landing pages start out with big, beautiful images to show visitors what the wechaty is all about.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Go for contributors over product
+    &lt;ul&gt;
+      &lt;li&gt;I will include real photographs of our major contributors, people using wechaty and enjoying the wechaty on our landing page.&lt;/li&gt;
+      &lt;li&gt;These will help visitors connect with wechaty on a more personal and emotional level which will also make them more likely to convert&lt;/li&gt;
+      &lt;li&gt;This will make new users to make use of wechaty&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Visualize the benefits of wechaty
+    &lt;ul&gt;
+      &lt;li&gt;I will look for more images to support the rest of our landing page&lt;/li&gt;
+      &lt;li&gt;Most visitors won't actually read every work that we write so i will be creative with different wechaty product and uses images or custom illustrations to help tell a visual story on the pages as well&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;design-landing-page&quot;&gt;Design Landing Page&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start with the provided template. I will start constructing and add the necessary details that huan said in the blog post &lt;a href=&quot;https://wechaty.js.org/2021/05/01/landing-page-value-proposition/&quot;&gt;proposal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The design of the page will focus on supporting the wechaty objective and nothing else. This also means that the web design will be clean and simple, so as to ensure a smooth browsing experience and not to compete for the viewers attention&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;test-and-optimize&quot;&gt;Test and Optimize&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I will see what other improvements we can make. It's easy to test and optimize for a high conversion rate by seeing the results&lt;/li&gt;
+  &lt;li&gt;Duplicate the page
+    &lt;ul&gt;
+      &lt;li&gt;Once the landing page is finished the heavy lifting is done. I will scale-up the production by duplicating the page and cheating a new variant and compare other variants then look for which is good and better&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Test New Elements
+    &lt;ul&gt;
+      &lt;li&gt;I will try out different versions of our landing page headline. Switch up the images on our landing page&lt;/li&gt;
+      &lt;li&gt;Swap out a new CTA button. Each variant can help to test a new element in our wechaty landing page&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;wechaty-new-reconstructed-landing-page&quot;&gt;Wechaty New Reconstructed Landing page&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In the terms of content, the new wechaty landing page has one simple message to convey. It promotes the desired action and sticks to explaining the benefits of performing this action.&lt;/li&gt;
+  &lt;li&gt;The ultimate goal of the new wechaty landing page is to make site visitors use wechaty, understand and click. Both the design and the text of the page need to reflect that, so i will make sure that all buttons are labeled with clear &lt;a href=&quot;https://uxplanet.org/microcopy-tiny-words-with-a-huge-ux-impact-90140acc6e42&quot;&gt;microcopy&lt;/a&gt; and that they stand out against the page's background&lt;/li&gt;
+  &lt;li&gt;This landing page is made up of one single page. Users can divide it into separate sections, but i will be stick to just one page that preferably isn't too long so that users can see and learn about wechaty easily&lt;/li&gt;
+  &lt;li&gt;Headers, subheaders buttons and images will be represented in a powerful and effective way, while ensuring that all elements remain cohesive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;creating-new-wechaty-landing-page&quot;&gt;Creating New Wechaty Landing Page&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Define the goal.&lt;/strong&gt; I will pinpoint what our LP want to achieve and stay consistent throughout every detail of our wechaty site&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Create visual hierarchy&lt;/strong&gt;. I will decide which elements are the most important and make them stand out.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Generate action with a CTA&lt;/strong&gt;. I will make it clear to our LP visitor what they should do. I will provide some call-to-action examples to our community members, mentors and volunteers then discuss about which look good&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Craft a captivating design&lt;/strong&gt;. I will engage our wechaty site visitors with an eye-catching design that will make them want to click and discover more. I will also opt for a strategic layout.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;note---most-users-dont-scroll-all-the-way-to-the-bottom-of-the-landing-page-to-make-this-landing-page-more-effective-and-create-the-best-user-experience-i-will-place-the-design-and-content-above-the-fold&quot;&gt;Note :- &quot;Most users don't scroll all the way to the bottom of the landing page. To make this landing page more effective and create the best user experience, I will place the design and content above the fold&quot;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Write killer copy&lt;/strong&gt;. I will keep the text succinct and informative, with enticing headers that will give our wechaty visitors to read on&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Utilize images.&lt;/strong&gt; I will set the tone and charm our visitors with impactful visuals. These can also help illustrate about wechaty in a clear way&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Highlight the value&lt;/strong&gt;. I will let wechaty visitors know how clicking on the CTA will benefit them. Eg: like what will they get out of it ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;short-checklist-for-making-new-wechaty-landing-page&quot;&gt;Short checklist for making new wechaty landing page&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Select a landing page template or design from scratch (I will design the template for the wechaty new LP so that it will be more efficient and new TW can improve our LP in future)&lt;/li&gt;
+  &lt;li&gt;Give the wechaty landing page an attractive name&lt;/li&gt;
+  &lt;li&gt;Add unique content&lt;/li&gt;
+  &lt;li&gt;Include striking images&lt;/li&gt;
+  &lt;li&gt;Include the value propositions and use eye catchy words for attraction&lt;/li&gt;
+  &lt;li&gt;Make sure all our wechaty link and CTAs are working&lt;/li&gt;
+  &lt;li&gt;Complete the meta description and SEO title&lt;/li&gt;
+  &lt;li&gt;Publish! New wechaty landing page with value proposition&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Extra Tip:-&lt;/strong&gt; One of the greatest advantages of landing pages is that they are relatively easy to make. Since this is easy to make I will create more than one landing page and test the performance of multiple designs. This technique will take our wechaty new landing page to a much more professional level. It can teach a lot about our wechaty audience and help us to focus on delivering a next level landing page for our wechaty users.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An reconstructed landing page for wechaty with value proposition&lt;/li&gt;
+  &lt;li&gt;This will also have the reconstructing plan and other details that must be added in the new wechaty landing page as said &lt;a href=&quot;https://wechaty.js.org/2021/05/01/landing-page-value-proposition/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Make it one page
+    &lt;ul&gt;
+      &lt;li&gt;I can divide wechaty landing page into separate sections, but stick to a single page.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prioritize above-the-fold content
+    &lt;ul&gt;
+      &lt;li&gt;Because most visitors won't scroll all the way to the bottom of a landing page, place important content - such as our CTA - above the fold.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Be clear and direct
+    &lt;ul&gt;
+      &lt;li&gt;Include a strong headline across the top of the page. Visitors should understand within seconds what wechaty is offering, why it benefits them&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Focus on the 'how'
+    &lt;ul&gt;
+      &lt;li&gt;I will make our landing page about our wechaty audience not just about wechaty. I will go beyond simply explaining what wechaty offering, instead I will focus on how wechaty benefit users&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Use strong CTA copy
+    &lt;ul&gt;
+      &lt;li&gt;I will choose a short, direct, action-oriented phrase that tells visitors exactly what our visitors should do next&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Choose an eye-catching CTA button
+    &lt;ul&gt;
+      &lt;li&gt;Make our website CTA visually prominent by placing it on a button. To instantly draw the eye of our visitors, opt for colors that make the button stand out from the rest of the content on the page&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Keep navigation to a minimum
+    &lt;ul&gt;
+      &lt;li&gt;I will not overwhelm our wechaty visitors with multiple navigation choices because it may miss converting our users if we give them too many options.&lt;/li&gt;
+      &lt;li&gt;Instead all points on our landing page will lead to the same place of our CTA&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Use powerful visuals
+    &lt;ul&gt;
+      &lt;li&gt;By using this I will grab our audience's attention with enticing and memorable visual elements, such as images and video&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Embrace with space
+    &lt;ul&gt;
+      &lt;li&gt;While strategic visuals are key to a strong landing page, steer clear of packing in too many images, words, boxes, buttons, icons, clips art, videos and more.&lt;/li&gt;
+      &lt;li&gt;I will leave plenty of breathing room around the elements on our wechaty landing page to make content easy to read and digest&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add social share buttons
+    &lt;ul&gt;
+      &lt;li&gt;I will include social share buttons on our landing page to encourage visitors to spread the message and wechaty.&lt;/li&gt;
+      &lt;li&gt;Share button give additional exposure when our visitors repost our page on their own media feeds&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Include code of conduct of wechaty&lt;/li&gt;
+  &lt;li&gt;Thank you visitors sections&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;additional-idea&quot;&gt;Additional Idea&lt;/h4&gt;
+
+&lt;p&gt;Making our wechaty new landing page more effective&lt;/p&gt;
+
+&lt;p&gt;In order for the landing page to fulfill its purpose, we need to drive traffic to it. This can be done in a few different ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Utilize the power of email marketing to send landing page to our wechaty subscribers via email&lt;/li&gt;
+  &lt;li&gt;Post a link to our LP on social networks like instagram or twitter&lt;/li&gt;
+  &lt;li&gt;Add a link to the LP within a blog post whenever someone add the blog post to our wechaty&lt;/li&gt;
+  &lt;li&gt;Optimize the wechaty landing page for search engines, by implementing advanced SEO features that can help wechaty website to boost the chance for getting found by organic (non-paid) search&lt;/li&gt;
+  &lt;li&gt;Create a PPC ad campaign on search engines and link to the landing page (If needed)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;timeline&quot;&gt;Timeline&lt;/h3&gt;
+
+&lt;p&gt;This is the proposed timeline and can be modified by the mentor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 1 (May 18 - May 24):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This week we will take suggestions from the members and mentors to get various insights.&lt;/li&gt;
+  &lt;li&gt;Working on the initial designs of the projects and seeking suggestions.&lt;/li&gt;
+  &lt;li&gt;Before the project timeline begins we will set up our development environment so that we can start the project as soon as possible this helps to provide a professional and improved quality of landing page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 2 (May 24 - May 31):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Making a draft for the landing page based on suggestions.&lt;/li&gt;
+  &lt;li&gt;Creating a landing page as per designs by using HTML, CSS and JavaScript and other UI/UX tools&lt;/li&gt;
+  &lt;li&gt;We will combine and make a effective, attractive and eye catching design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 3 (June 1 - June 7):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Continue working on the landing page.&lt;/li&gt;
+  &lt;li&gt;Creating all the sections for the landing page.&lt;/li&gt;
+  &lt;li&gt;Making the landing page responsive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 4 (June 8 - June 14):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Proofreading the existing website&lt;/li&gt;
+  &lt;li&gt;Create visual hierarchy&lt;/li&gt;
+  &lt;li&gt;Design and craft the CTAs accordingly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 5 First Month Evaluation (June 15 - June 21):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Submitting the works done in the previous week&lt;/li&gt;
+  &lt;li&gt;Making and joining CTA to do action&lt;/li&gt;
+  &lt;li&gt;Crafting a captivating design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 6 (June 22 - June 28):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Designing and utilizing powerful and attractive images/GIFs&lt;/li&gt;
+  &lt;li&gt;Highlighting the value and key benefits of wechaty&lt;/li&gt;
+  &lt;li&gt;Making value propositions and eye catching words&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 7 (June 29 - July 5):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adding navigation and keeping it minimum&lt;/li&gt;
+  &lt;li&gt;Making visuals and value propositions more powerful&lt;/li&gt;
+  &lt;li&gt;Including code of conduct of wechaty&lt;/li&gt;
+  &lt;li&gt;Prioritizing above the fold content&lt;/li&gt;
+  &lt;li&gt;Adding the voice of our contributors and other necessary things as explained in the blog post &lt;a href=&quot;https://wechaty.js.org/2021/05/01/landing-page-value-proposition/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Including the upcoming work and the needed design/things as we explained in detail in our &lt;strong&gt;implementation/approach section&lt;/strong&gt; of this proposal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 8 (July 6 - July 12):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Making headline and sub-headline more attractive and effective&lt;/li&gt;
+  &lt;li&gt;Describing the value of wechaty benefits in the landing page&lt;/li&gt;
+  &lt;li&gt;Differentiate wechaty as the preferred provider of this value&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 9 Second Month Evaluation (July 13 - July July 19):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Submitting the work done in previous weeks&lt;/li&gt;
+  &lt;li&gt;Fixing minor typos and making changes to the webpage.&lt;/li&gt;
+  &lt;li&gt;Work on improvements suggested by the mentor&lt;/li&gt;
+  &lt;li&gt;Finishing the project completely and submitting the final results&lt;/li&gt;
+  &lt;li&gt;In the upcoming week we will be attached to the community and we will analyse/monitor the website traffic and if there is any improvements must be done or any suggestion we will do it and improve the quality of the work even more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;biographical-information-sajen-sarvajith&quot;&gt;Biographical Information (sajen sarvajith)&lt;/h4&gt;
+
+&lt;p&gt;I am a sophomore undergraduate student majoring in Computer Science from India. I have acted as a resource person on topics like ML, DL and orientation on online course awareness in colleges and universities. I have also organised and taken a few webinars regarding machine learning during COVID-19 pandemic.&lt;/p&gt;
+
+&lt;p&gt;I am passionate about making interactive tutorials, documentation and deep learning. I have worked on projects regarding R-CNN, LSTM and deep learning in my university. I am familiar working with JS/typescript and popular frameworks like angular, react, node.js, django and flask, I will also do UI development and documentation and I have writing experience by working in paper publications.&lt;/p&gt;
+
+&lt;p&gt;I am good with popular machine learning libraries like TensorFlow, PyTorch, keras, SciKit Learn, pandas, numpy, matplotlib. I have cracked the qualifier round of google code jam 2020, completed the Google Code-in competition in 2017 and completed hacktoberfest 2020 which are regarding open source.&lt;/p&gt;
+
+&lt;p&gt;I have worked on two paper publications regarding anomaly detection and quantum machine learning algorithms. I am going to publish in Elsevier and ICLR journals respectively due to this pandemic. I am unable to go to my university AI lab to complete my final tests so my publications have been paused for now.&lt;/p&gt;
+
+&lt;h4 id=&quot;biographical-information-arnab-saha&quot;&gt;Biographical Information (Arnab Saha)&lt;/h4&gt;
+
+&lt;p&gt;This is Arnab Saha, currently living in Noida, Uttar Pradesh, India. I am a Sophomore undergraduate student pursuing Electronics and communications engineering from NIT, Hamirpur. I am a front-end developer and a graphics designer.&lt;/p&gt;
+
+&lt;p&gt;These are the designs I have made for various projects (I have also developed complete websites for most of them).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.figma.com/file/nQmzo1BjSea0hHTL7fJWEL/PriJour?node-id=0%3A1&quot;&gt;&lt;strong&gt;Prijour&lt;/strong&gt;&lt;/a&gt;- The project was a website that consisted of a digital diary, an emotion predictor quiz and a happiness predictor model.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Website Link:&lt;/strong&gt; &lt;a href=&quot;https://pri-jour.herokuapp.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.figma.com/file/6XupHkqFwIMqYXdHZbnO6l/Fundraiser?node-id=0%3A1&quot;&gt;&lt;strong&gt;Handouts&lt;/strong&gt;&lt;/a&gt; - This project is a decentralised website for NGO crowdfunding.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.figma.com/file/eKJHIq1klPx5MwwZrRn1zI/Kurakoo?node-id=0%3A1&quot;&gt;&lt;strong&gt;Kurakoo&lt;/strong&gt;&lt;/a&gt; - This project was a general purpose question and answer website.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.figma.com/file/TXuf14vQvUqfAjFoXFMO3A/Real-Estate-Agency?node-id=0%3A1&quot;&gt;&lt;strong&gt;Real Estate Corp&lt;/strong&gt;&lt;/a&gt; - This is the landing page for a real estate organisation.&lt;/p&gt;</content><author><name>sajenjeshan1222</name></author><category term="gsod" /><category term="google" /><category term="gsod" /><category term="2021" /><category term="reconstruct" /><category term="landing" /><category term="page" /><category term="value" /><category term="propositions" /><category term="proposal" /><category term="team-proposal" /><summary type="html">Team Members</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-gsod-2021-reconstruct-landing-page-team-proposal/gsod-reconstruct-lp.png" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-gsod-2021-reconstruct-landing-page-team-proposal/gsod-reconstruct-lp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Season of Docs 2021 Team Proposal - Volunteering</title><link href="https://wechaty.js.org/2021/05/12/gsod-2021-volunteering-proposal/" rel="alternate" type="text/html" title="Google Season of Docs 2021 Team Proposal - Volunteering" /><published>2021-05-12T00:00:00+00:00</published><updated>2021-05-12T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/12/gsod-2021-volunteering-proposal</id><content type="html" xml:base="https://wechaty.js.org/2021/05/12/gsod-2021-volunteering-proposal/">&lt;h2 id=&quot;gsod21-project-proposal-for-volunteering&quot;&gt;GSoD’21 Project Proposal for Volunteering&lt;/h2&gt;
+
+&lt;p&gt;Read more about the volunteers in their individual project proposals&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rohitesh’s &lt;a href=&quot;https://wechaty.js.org/2021/05/04/rohitesh-applicant-for-volunteering-gsod/&quot;&gt;individual project proposa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Simin’s &lt;a href=&quot;https://wechaty.js.org/2021/05/04/gsod21-simin-proposal/&quot;&gt;individual project proposa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proposal-video-presentation&quot;&gt;Proposal Video Presentation&lt;/h2&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/q2Q5eFCa7dQ&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;roles-and-responsibilities-of-rohitesh&quot;&gt;Roles and Responsibilities of Rohitesh&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Write Final project report&lt;/li&gt;
+  &lt;li&gt;Draft case study and other docs for Google.&lt;/li&gt;
+  &lt;li&gt;Create a monthly evaluation post.&lt;/li&gt;
+  &lt;li&gt;I will Organize weekly meetings with Wechaty meeting notes, and make sure the meeting is on time and everyone is on the same page.&lt;/li&gt;
+  &lt;li&gt;I will write meeting notes &amp;amp; publish blog posts with zoom meeting recording videos on YouTube embedded.&lt;/li&gt;
+  &lt;li&gt;Help org complete three follow-up surveys which will be held in 2022.&lt;/li&gt;
+  &lt;li&gt;I Will create my own WhatsApp bot using Wechaty and give feedback on the current state of documentation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;deliverables&quot;&gt;Deliverables&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;13 weekly meeting posts&lt;/li&gt;
+  &lt;li&gt;1 case study and 1 final project report&lt;/li&gt;
+  &lt;li&gt;3-4 monthly evaluation blog posts&lt;/li&gt;
+  &lt;li&gt;Organize 10-11 meetings and maintain their notes, along with their YT videos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;roles--responsibilities-of-simin&quot;&gt;Roles &amp;amp; Responsibilities of Simin&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Give suggestions and feedback on the delivered documentation and review PRs within 2-3 days.&lt;/li&gt;
+  &lt;li&gt;Edit and proofread documents according to Google Standard before merging them.&lt;/li&gt;
+  &lt;li&gt;Make sure tech writers are following their respective timelines and report to Huan if they are trailing behind.&lt;/li&gt;
+  &lt;li&gt;Read the existing documentation and reconstruct or tell where the documentation is lacking.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;deliverables-1&quot;&gt;Deliverables&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Review PRs of all the tech writers&lt;/li&gt;
+  &lt;li&gt;Make sure everything is on time and take actions if somebody is trailing behind&lt;/li&gt;
+  &lt;li&gt;Give suggestions about documentation&lt;/li&gt;
+  &lt;li&gt;Proofread documentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;common-responsibilities&quot;&gt;Common Responsibilities&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Collaborate with other volunteers and org members.&lt;/li&gt;
+  &lt;li&gt;Audit the final performance of the tech writers.&lt;/li&gt;
+  &lt;li&gt;Notify the other volunteer by email to the Wechaty mailing list when, we can not be on duty, and take the responsibilities from the other when they can not be on duty by accident.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;communication&quot;&gt;Communication&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The two volunteers have set up their private communication channel on WhatsApp&lt;/li&gt;
+  &lt;li&gt;we will have a private zoom meeting if felt necessary.&lt;/li&gt;
+  &lt;li&gt;Wechaty Community Zoom Address:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://zoom.us/j/6505033788&quot;&gt;http://zoom.us/j/6505033788&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Passcode: huan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Rohitesh&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I will be in touch with the org via mailing list, Gitter and GitHub.&lt;/li&gt;
+  &lt;li&gt;I will be happy to reply to personal messages on Gitter, Gmail and Whatsapp (+91 8882232063)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Simin&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I will be in touch with the org via mailing list, Gitter, and GitHub, and you could find me through Gmail, WhatsApp, or WeChat (ID: siminmin1128).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;project-budget&quot;&gt;Project Budget&lt;/h3&gt;
+
+&lt;p&gt;Budget: $500 (each)&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading our post. Cheers!&lt;/p&gt;
+
+&lt;p&gt;Best,&lt;/p&gt;
+
+&lt;p&gt;Volunteers&lt;/p&gt;</content><author><name>rohitesh-kumar-jain</name></author><category term="gsod" /><category term="docs" /><category term="volunteering" /><category term="gsod" /><category term="proposal" /><category term="team-proposal" /><summary type="html">GSoD’21 Project Proposal for Volunteering</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-gsod-2021-volunteering-proposal/gsod_s.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-gsod-2021-volunteering-proposal/gsod_s.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Season of Docs 2021 Team Proposal - Tutorials</title><link href="https://wechaty.js.org/2021/05/11/gsod-2021-team-proposal-tutorials/" rel="alternate" type="text/html" title="Google Season of Docs 2021 Team Proposal - Tutorials" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/11/gsod-2021-team-proposal-tutorials</id><content type="html" xml:base="https://wechaty.js.org/2021/05/11/gsod-2021-team-proposal-tutorials/">&lt;p&gt;This is the project proposal for creating and improving the &lt;strong&gt;Wechaty Tutorials&lt;/strong&gt; documentation on which we will be working as a part of Google Season of Docs 2021. We are looking forward to completing this work during a span of &lt;strong&gt;12 weeks&lt;/strong&gt; (or, 3 months).&lt;/p&gt;
+
+&lt;h2 id=&quot;team-members&quot;&gt;Team members&lt;/h2&gt;
+
+&lt;h3 id=&quot;souvik-biswas-email-sbis1999gmailcom&quot;&gt;Souvik Biswas (email: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sbis1999@gmail.com&lt;/code&gt;)&lt;/h3&gt;
+
+&lt;p&gt;I am Souvik Biswas, currently pursuing a B.Tech degree in Computer Science and Engineering from IIIT Kalyani in India. I am a freelance technical writer of &lt;a href=&quot;https://blog.codemagic.io/&quot;&gt;Codemagic&lt;/a&gt; and &lt;a href=&quot;https://blog.logrocket.com/&quot;&gt;LogRocket&lt;/a&gt; Blog, and a passionate mobile app developer. You can also find some of my articles on &lt;a href=&quot;https://medium.com/@sbis1999&quot;&gt;Medium&lt;/a&gt;, and explore my projects on &lt;a href=&quot;https://github.com/sbis04&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;shwetal-soni-email-sonishwetal704gmailcom&quot;&gt;Shwetal Soni (email: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sonishwetal704@gmail.com&lt;/code&gt;)&lt;/h3&gt;
+
+&lt;p&gt;I am Shwetal Soni, currently pursuing B.Tech in Computer Science and Engineering from NIT Hamirpur in India. I am interested in UI/UX Design, Frontend web development and recently I’m also exploring the field of Technical Writing. Recently I have only written one technical blog on &lt;em&gt;writing smart contracts on Tezos Blockchain&lt;/em&gt;. You can check it out here &lt;a href=&quot;https://shwetalsoni.medium.com/building-your-first-dapp-on-tezos-part-1-writing-smart-contract-on-smartpy-d7cdf27476f9&quot;&gt;Medium&lt;/a&gt;. You can also find my projects on &lt;a href=&quot;https://github.com/shwetalsoni/&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;proposal-video-presentation&quot;&gt;Proposal Video Presentation&lt;/h2&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/aYlHgGFJoJM&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;h3 id=&quot;current-state-of-wechaty-tutorials&quot;&gt;Current State of WeChaty Tutorials&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Users come to Wechaty website seeking how to use Wechaty to build a chatbot application for solving their problems. Unfortunately, the learning curve is not friendly to our users, they always struggle with setting up their development environment, can not get started with the simplest example source code, and find it hard to know what they can do with our API. This problem leads to us losing lots of new users, increased number of questions asked in the community, and lowered user satisfaction.&lt;/li&gt;
+  &lt;li&gt;The current version of the &lt;a href=&quot;https://wechaty.js.org/docs/tutorials/&quot;&gt;Wechaty Tutorials&lt;/a&gt; is not properly structured.&lt;/li&gt;
+  &lt;li&gt;The tutorials on the website need improvement, and should be beginner friendly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proposed-work&quot;&gt;Proposed Work&lt;/h2&gt;
+
+&lt;p&gt;Update the &lt;strong&gt;Tutorials&lt;/strong&gt; to include a step-by-step guide (easy for beginners to follow) for achieving the final goal of building a bot.&lt;/p&gt;
+
+&lt;p&gt;The Tutorial project should:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Allow the user to learn by doing&lt;/li&gt;
+  &lt;li&gt;Get the user started&lt;/li&gt;
+  &lt;li&gt;Make sure that the tutorial works all the time&lt;/li&gt;
+  &lt;li&gt;Ensure the user sees results immediately&lt;/li&gt;
+  &lt;li&gt;Make the tutorial repeatable&lt;/li&gt;
+  &lt;li&gt;Focus on concrete steps, not abstract concepts&lt;/li&gt;
+  &lt;li&gt;Provide the minimum necessary explanation&lt;/li&gt;
+  &lt;li&gt;Focus only on the steps the user needs to take&lt;/li&gt;
+  &lt;li&gt;Work with the contributor team to update the documentation on the Wechaty site.&lt;/li&gt;
+  &lt;li&gt;Add easy to follow video tutorials&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The current &lt;strong&gt;overall structure&lt;/strong&gt; of the Tutorials documentation is a bit confusing, so uses might find it difficult to find their relevant information for which they came to the Docs. We have proposed a revised structure of the Tutorials section.&lt;/p&gt;
+
+&lt;p&gt;Each of the documentation pages should be structured in a particular format (so that users get familiarized with the format and would be much easier to follow). And, each of the tutorial pages for building a bot should contain an interactive &lt;strong&gt;CodeSandbox&lt;/strong&gt; at the end (consisting of minimal code and TODO steps) where they can apply the knowledge that they gained by following the tutorial, and build a bot totally by themselves!&lt;/p&gt;
+
+&lt;p&gt;We have included a detailed &lt;strong&gt;structure&lt;/strong&gt; (further down the article) of each documentation page that we propose to be followed for every bot building tutorial.&lt;/p&gt;
+
+&lt;p&gt;One more thing that we noticed in the Tutorials is the lack of a &lt;strong&gt;defined goal&lt;/strong&gt; that the user should expect to achieve at the end of that step-by-step guide. So, there should be a clear description of the goal in the introduction of each tutorial.&lt;/p&gt;
+
+&lt;h2 id=&quot;overall-structure-of-tutorials&quot;&gt;Overall structure of Tutorials&lt;/h2&gt;
+
+&lt;p&gt;The overall structure of the Tutorials will be as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Here we can have all the links for each of the pages present in the Tutorials section along with a brief description. This will help the user to easily navigate through the Docs.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Quick start&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Overview (containing a brief introduction to each of the sub pages)&lt;/li&gt;
+      &lt;li&gt;Running on GitPod&lt;/li&gt;
+      &lt;li&gt;Running on Google Cloud Shell&lt;/li&gt;
+      &lt;li&gt;Running Locally&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Advanced Usage&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Usage with Docker&lt;/li&gt;
+      &lt;li&gt;Usage with Heroku&lt;/li&gt;
+      &lt;li&gt;Using Plugin with wechaty&lt;/li&gt;
+      &lt;li&gt;Using Redux with wechaty&lt;/li&gt;
+      &lt;li&gt;Using Vorpal with wechaty&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Examples&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Overview (introduction to the different types of bot included in this examples section)&lt;/li&gt;
+      &lt;li&gt;Basic
+        &lt;ul&gt;
+          &lt;li&gt;World’s shortest chatbot&lt;/li&gt;
+          &lt;li&gt;Contact Bot&lt;/li&gt;
+          &lt;li&gt;Ding dong Bot&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Advanced
+        &lt;ul&gt;
+          &lt;li&gt;Demo Bot&lt;/li&gt;
+          &lt;li&gt;Busy Bot&lt;/li&gt;
+          &lt;li&gt;Media File Bot&lt;/li&gt;
+          &lt;li&gt;Room Bot&lt;/li&gt;
+          &lt;li&gt;Friend Bot&lt;/li&gt;
+          &lt;li&gt;Gist Bot&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Professional
+        &lt;ul&gt;
+          &lt;li&gt;Hot Import Bot&lt;/li&gt;
+          &lt;li&gt;Ctrl C Signal Bot&lt;/li&gt;
+          &lt;li&gt;Monster Bot&lt;/li&gt;
+          &lt;li&gt;Api AI Bot&lt;/li&gt;
+          &lt;li&gt;Speech to Text Bot&lt;/li&gt;
+          &lt;li&gt;Turing Bot&lt;/li&gt;
+          &lt;li&gt;Telegram Roger Bot&lt;/li&gt;
+          &lt;li&gt;Blessed Twins Bot&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cheat sheet&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Brief description of a bot&lt;/li&gt;
+      &lt;li&gt;Code snippet to use it&lt;/li&gt;
+      &lt;li&gt;Tech description (in brief)&lt;/li&gt;
+      &lt;li&gt;Example - CodeSandbox (maybe included)&lt;/li&gt;
+      &lt;li&gt;Screenshots / GIFs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We think the &lt;a href=&quot;https://wechaty.js.org/docs/tutorials/video-tutorial&quot;&gt;Video tutorial&lt;/a&gt; section is not required as a separate topic. Currently the contents of this page are just two quick start videos (in chinese), so that can be included in the &lt;strong&gt;Quick Start: Overview&lt;/strong&gt; section.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;structure-for-each-tutorial-page&quot;&gt;Structure for each tutorial page&lt;/h2&gt;
+
+&lt;p&gt;A proposed structure of the tutorial documentation is as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt; (also include the goal of the tutorial)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Try out the bot&lt;/strong&gt; (CodeSandbox)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Requirements&lt;/strong&gt; (tools required to follow the tutorial)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Usage&lt;/strong&gt;* (can be renamed as &lt;strong&gt;Quick Start&lt;/strong&gt;)&lt;/p&gt;
+
+    &lt;p&gt;Code snippet - for users who may be searching for how to use the bot in their project, and doesn’t want to go deep into the step-by-step tutorial.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;One more suggestion: These are like quick start code snippets, so we think it should be moved to the Cheat Sheet section which will look more appropriate.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Video tutorial&lt;/strong&gt; (optional)*&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Getting started&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Quick introduction to the required tools and how to setup their development environment to get started building the bot&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Building the bot&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Step-by-step guide for building the bot, with a &lt;strong&gt;CodeSandbox&lt;/strong&gt; at the end having minimal code and &lt;em&gt;TODO&lt;/em&gt; steps where users can try building the bot by themselves directly on the documentation page without installing any tools on their local system&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Running the bot&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Commands for running the bot locally&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bot demonstration&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Commands that they can use with the bot, and maybe a GIF showing the invocation of some of the commands on WeChat or WhatsApp&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;*Require some feedback from the community members&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;project-goals-timeline&quot;&gt;Project Goals (Timeline)&lt;/h2&gt;
+
+&lt;h3 id=&quot;week-1&quot;&gt;Week 1&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start by adding missing content to one of the tutorials (maybe &lt;strong&gt;Vorpal&lt;/strong&gt; first as I have already started contributing to that page)&lt;/li&gt;
+  &lt;li&gt;Try out the bot (&lt;strong&gt;CodeSandbox&lt;/strong&gt; - already added: &lt;a href=&quot;https://github.com/wechaty/wechaty.js.org/pull/779&quot;&gt;#779&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Update the step-by-step guide to have more technical details on how to build the bot, adding brief explanation of each function used&lt;/li&gt;
+  &lt;li&gt;Add a &lt;strong&gt;CodeSandbox&lt;/strong&gt; at the end with the TODO (as explained above)&lt;/li&gt;
+  &lt;li&gt;Structure the tutorial properly as per the proposed structure given above&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-2&quot;&gt;Week 2&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Update the &lt;a href=&quot;https://wechaty.js.org/docs/tutorials/&quot;&gt;Tutorials: Overview&lt;/a&gt; page by adding information about what are the different types of tutorial available that then can go through (keep updating this as new tutorials are added to the docs)&lt;/li&gt;
+  &lt;li&gt;In the &lt;a href=&quot;https://wechaty.js.org/docs/getting-started/&quot;&gt;Getting started overview&lt;/a&gt; page add information about what are the different ways that can get started with Wechaty bots.&lt;/li&gt;
+  &lt;li&gt;Include the &lt;strong&gt;CodeSandbox&lt;/strong&gt; of the Ding Dong bot to the &lt;a href=&quot;https://wechaty.js.org/docs/getting-started/quick-start&quot;&gt;Quick start&lt;/a&gt; page, so that users can try out the bot directly.&lt;/li&gt;
+  &lt;li&gt;Short videos may be included for running the Ding Dong bot using GitPod and Google Cloud Shell.&lt;/li&gt;
+  &lt;li&gt;Update the page with screenshots or GIF of the Ding Dong bot running on a device (WeChat / WhatsApp).&lt;/li&gt;
+  &lt;li&gt;Splitting Quick Start into two different pages, separate page for Running on Gitpod and same for Running on Cloudshell. (Removing the unnecessary information)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-3&quot;&gt;Week 3&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add getting started examples for &lt;a href=&quot;https://wechaty.js.org/docs/polyglot/&quot;&gt;Polyglot Wechaty&lt;/a&gt; (multi-language) as per the conversation &lt;a href=&quot;https://github.com/wechaty/wechaty.js.org/pull/763#discussion_r619794643&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Update the page structure and include &lt;strong&gt;CodeSandbox&lt;/strong&gt; for the bot (if necessary).&lt;/li&gt;
+  &lt;li&gt;Add screenshots / GIFs to this page.&lt;/li&gt;
+  &lt;li&gt;Device screenshots / GIF after running the bot.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-4&quot;&gt;Week 4&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Check any improvements that can be made to the &lt;a href=&quot;https://wechaty.js.org/docs/tutorials/docker&quot;&gt;Usage with Docker&lt;/a&gt; page, and add any missing section (if required).&lt;/li&gt;
+  &lt;li&gt;Verify the examples run properly on Wechaty Docker.&lt;/li&gt;
+  &lt;li&gt;Make the page consistent and follow the proposed structure.&lt;/li&gt;
+  &lt;li&gt;Add screenshots / GIF of the running Docker instance (if required)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-5&quot;&gt;Week 5&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add instructions to the &lt;a href=&quot;https://wechaty.js.org/docs/tutorials/usage-with-heroku&quot;&gt;Usage with Heroku&lt;/a&gt; page.&lt;/li&gt;
+  &lt;li&gt;Structure this page correctly.&lt;/li&gt;
+  &lt;li&gt;Add screenshots while updating the instructions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-6&quot;&gt;Week 6&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://wechaty.js.org/docs/tutorials/using-plugin-with-wechaty&quot;&gt;Using Plugin with Wechaty&lt;/a&gt; page can be divided into several sub-sections each consisting of a tutorial for one Wechaty Plugin Contrib Package.&lt;/li&gt;
+  &lt;li&gt;Adding information and step-by-step tutorial for each plugin.&lt;/li&gt;
+  &lt;li&gt;Include a &lt;strong&gt;CodeSandbox&lt;/strong&gt; to try out the bot.&lt;/li&gt;
+  &lt;li&gt;Add screenshots and GIFs where necessary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-7&quot;&gt;Week 7&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Continue with creating separate pages for each plugin.&lt;/li&gt;
+  &lt;li&gt;Make each page follow the proposed structure&lt;/li&gt;
+  &lt;li&gt;Adding information and step-by-step tutorial for each plugin.&lt;/li&gt;
+  &lt;li&gt;Include a &lt;strong&gt;CodeSandbox&lt;/strong&gt; to try out the bot.&lt;/li&gt;
+  &lt;li&gt;Adding screenshots and GIFs where necessary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-8&quot;&gt;Week 8&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add proper introduction to the &lt;a href=&quot;https://wechaty.js.org/docs/tutorials/using-redux-with-wechaty&quot;&gt;Using Redux with Wechaty&lt;/a&gt; along with a defined goal for following this tutorial.&lt;/li&gt;
+  &lt;li&gt;Structure the page properly&lt;/li&gt;
+  &lt;li&gt;Include code explanation and interactive &lt;strong&gt;CodeSandbox&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Add screenshots or GIFs (if necessary)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-9&quot;&gt;Week 9&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create tutorial pages for some of the bots mentioned on the &lt;a href=&quot;https://wechaty.js.org/docs/showcases/&quot;&gt;Showcases&lt;/a&gt; page (need feedback from the community members).&lt;/li&gt;
+  &lt;li&gt;Build tutorial for &lt;a href=&quot;https://wechaty.js.org/docs/showcases/osschat-bot&quot;&gt;OSSChat&lt;/a&gt; bot (if approved by community members).&lt;/li&gt;
+  &lt;li&gt;Add &lt;strong&gt;CodeSandbox&lt;/strong&gt; and code explanation.&lt;/li&gt;
+  &lt;li&gt;Add screenshots or GIFs (if necessary)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-10&quot;&gt;Week 10&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Work on creating tutorials for using the &lt;a href=&quot;https://wechaty.js.org/docs/showcases/rui-bot&quot;&gt;RuiBot&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://wechaty.js.org/docs/showcases/friday-bot&quot;&gt;Friday BOT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Include step-by-step guide and &lt;strong&gt;CodeSandbox&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Add screenshots or GIFs (if necessary)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-11&quot;&gt;Week 11&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start working on the &lt;a href=&quot;https://wechaty.js.org/docs/tutorials/cheatsheet&quot;&gt;Cheat Sheet&lt;/a&gt; which would consist of the following:
+    &lt;ul&gt;
+      &lt;li&gt;Brief description of a bot&lt;/li&gt;
+      &lt;li&gt;Code snippet to use it&lt;/li&gt;
+      &lt;li&gt;Tech description (in brief)&lt;/li&gt;
+      &lt;li&gt;Example - CodeSandbox (maybe included)&lt;/li&gt;
+      &lt;li&gt;Screenshots / GIFs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Creating the cheat sheet will take time (most probably two weeks).&lt;/p&gt;
+
+&lt;h3 id=&quot;week-12&quot;&gt;Week 12&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Continue with the cheat sheet.&lt;/li&gt;
+  &lt;li&gt;Create short video tutorials for some of the most used bots (if necessary).&lt;/li&gt;
+  &lt;li&gt;Decide what are the things to be included to the &lt;a href=&quot;https://wechaty.js.org/docs/tutorials/examples&quot;&gt;Examples&lt;/a&gt; page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is an estimated project goal, changes might be done if suggested by mentors and community members.&lt;/p&gt;
+
+&lt;h2 id=&quot;communication&quot;&gt;Communication&lt;/h2&gt;
+
+&lt;p&gt;We will be communicating with the organization through the mailing list, Gitter &amp;amp; GitHub.&lt;/p&gt;
+
+&lt;p&gt;We have set up our personal communication through WhatsApp and email.&lt;/p&gt;
+
+&lt;h2 id=&quot;stipend&quot;&gt;Stipend&lt;/h2&gt;
+
+&lt;p&gt;As suggested by the organization the following structure is to be followed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Each writer will get a base stipend of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$2000&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;The other &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$1000&lt;/code&gt; is a performance stipend. It will be voted by the volunteers and mentors after the project has been finished. (as suggested by organization, maybe changed later)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>sbis04</name></author><category term="gsod" /><category term="google" /><category term="gsod" /><category term="2021" /><category term="docs" /><category term="tutorials" /><category term="project" /><category term="proposal" /><category term="team-proposal" /><summary type="html">This is the project proposal for creating and improving the Wechaty Tutorials documentation on which we will be working as a part of Google Season of Docs 2021. We are looking forward to completing this work during a span of 12 weeks (or, 3 months).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-gsod-2021-team-proposal-tutorials/wechaty-tutorials-proposal.png" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-gsod-2021-team-proposal-tutorials/wechaty-tutorials-proposal.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Season of Docs 2021 Team Proposal - References</title><link href="https://wechaty.js.org/2021/05/11/shraddhavp-soumi-combined-reference-proposal/" rel="alternate" type="text/html" title="Google Season of Docs 2021 Team Proposal - References" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/11/shraddhavp-soumi-combined-reference-proposal</id><content type="html" xml:base="https://wechaty.js.org/2021/05/11/shraddhavp-soumi-combined-reference-proposal/">&lt;h2 id=&quot;proposal-statement&quot;&gt;PROPOSAL STATEMENT&lt;/h2&gt;
+
+&lt;h3 id=&quot;team-members&quot;&gt;Team members&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Name: Shraddha Vasant Prasad&lt;/strong&gt;
+&lt;strong&gt;Email: (shraddhavp.1js16cs094@gmail.com)&lt;/strong&gt;
+&lt;strong&gt;Name: Soumi Bardhan&lt;/strong&gt;
+&lt;strong&gt;Email: (soumibardhan10@gmail.com)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;professional-information&quot;&gt;PROFESSIONAL INFORMATION&lt;/h2&gt;
+
+&lt;h3 id=&quot;shraddha-prasad&quot;&gt;Shraddha Prasad&lt;/h3&gt;
+
+&lt;p&gt;I am Shraddha Vasant Prasad currently working as a Software engineer at American Express with a great passion towards open source and technical writing.
+I would describe myself as “A creative person by nature and a developer by passion”&lt;/p&gt;
+
+&lt;p&gt;Writing Samples&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.loginradius.com/blog/async/blockchain-the-new-technology-of-security-trust/&quot;&gt;Blog on Blockchain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;My other &lt;a href=&quot;https://drive.google.com/drive/folders/1_g8lDR-Q0RXHTSj0vc3d4vvTXkrX2Ei0&quot;&gt;articles&lt;/a&gt; during my tenure as a Technical Content Writer at Girlscript foundation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;soumi-bardhan&quot;&gt;Soumi Bardhan&lt;/h3&gt;
+
+&lt;p&gt;I am Soumi Bardhan, a CS Junior at IIIT Kalyani. I love solving real world problems with deep learning and AI. I document my experiences through technical articles on medium. Checkout my &lt;a href=&quot;https://soumibardhan10.medium.com/&quot;&gt;medium&lt;/a&gt; for my technical articles and my &lt;a href=&quot;https://www.youtube.com/channel/UCe9j0dMdSq01QydHMYsNPnw&quot;&gt;Youtube&lt;/a&gt; for some video explanations.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-title&quot;&gt;Project title&lt;/h2&gt;
+
+&lt;p&gt;Improve the References page of wechaty.js.org&lt;/p&gt;
+
+&lt;h2 id=&quot;project-scope&quot;&gt;Project scope&lt;/h2&gt;
+
+&lt;p&gt;References contain the technical reference for APIs and other technical aspects of the Wechaty machinery.It describes how it works and the way it works.
+The scope of this  project is limited to  improving  the References section of the wechaty.js.org website.&lt;/p&gt;
+
+&lt;h2 id=&quot;current-state-of-references-page&quot;&gt;Current state of References Page&lt;/h2&gt;
+
+&lt;p&gt;After analysis of the introduction section, following issues were seen:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The references page is difficult to understand for first time users technically.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is incomplete and abstract.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Many information is given in Chinese language and hence difficult for users to understand.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proposal-video&quot;&gt;Proposal Video&lt;/h2&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/82rFox9Vq14&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;purpose-of-references-section-of--wechatyjsorg&quot;&gt;Purpose of References section of  wechaty.js.org&lt;/h2&gt;
+
+&lt;p&gt;The references section of wechaty.js.org  will serve the following purposes :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Describe what actually is Wechaty for all the users  be it technical or  non-technical in simple and comprehensible English&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Describe the technical aspects of Wechaty in an easy and understandable manner.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The proposed structure is as follows :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;API References&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Add use cases for API references ,also add code snippets for it and also add details about user classes that can be used.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Polyglot&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Add code snippets with easy to understand examples for first time users in different programming languages.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Puppet Providers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Add separate modules for each of the messaging apps and add necessary code snippets&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Puppet Services&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Include all the puppet services offered by Wechaty&lt;/p&gt;
+
+&lt;h2 id=&quot;project-timeline&quot;&gt;PROJECT TIMELINE&lt;/h2&gt;
+
+&lt;p&gt;(This timeline is tentative it might change after discussion with the community)
+The tasks will be divided  each week after personal call discussions&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;WEEK&lt;/th&gt;
+      &lt;th&gt;TASKS PLANNED&lt;/th&gt;
+      &lt;th&gt;ASSIGNED TO&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 1 ( May 18 - May 24)&lt;/td&gt;
+      &lt;td&gt;Community bonding Discussion meetings on the outline with community  Add readme for future contributors to contribute to References section&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 2 (May 24 - May 31)&lt;/td&gt;
+      &lt;td&gt;Restructuring the API - wechaty - both Define a structure in this page, or better, create subsections for the topic with different pages for each topic. The page has a lot of information. Main bot code  Puppet name  Wechaty Options&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 3 (29th May - 4th June)&lt;/td&gt;
+      &lt;td&gt;API - Message- create subsections. Small pages with code easy to read and understand. API - contact - Restructure&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 4 (5th June - 11th June)&lt;/td&gt;
+      &lt;td&gt;API - Room : Again here I think we can have separate pages for all the functions like we have for most libraries. API - Room Invitation&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 5  (12th June - 18th June)&lt;/td&gt;
+      &lt;td&gt;API -Friendship Puppet Services : Index. This page looks too long. Maybe we can split it up into clean readable sections.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 6 (19th June - 25th June)&lt;/td&gt;
+      &lt;td&gt;Puppet Service WX work - Improve, restructure Puppet Services - Padlocal&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 7 ( 26th June- 1st July)&lt;/td&gt;
+      &lt;td&gt;Puppet Services - Paimon Puppet Services - Donut Puppet Services - Puppet Service Compatibility : Add subsections for English and Chinese instead of too much text in the same page.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 8 (2nd July- 8th July)&lt;/td&gt;
+      &lt;td&gt;Puppet Services - DIY Specifications - Overview&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 9 (9th July- 15th July)&lt;/td&gt;
+      &lt;td&gt;Specification - Wechaty - restructure (Polyglot Wechaty) - TBW Specification - Plugin&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 10 (16th July-22July)&lt;/td&gt;
+      &lt;td&gt;Specifications Puppet - Create smaller subsections Specifications Service - Create smaller subsections&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 11 (23rd July- 29July)&lt;/td&gt;
+      &lt;td&gt;Specifications Token - TBW Deprecations Timeline&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 12 (30th July- 5th August )&lt;/td&gt;
+      &lt;td&gt;Add Polyglot - Index Add more detailed and structured document for Polyglot-  OpenAPI Typescript Python Go&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 13 ( 6th August-12th August)&lt;/td&gt;
+      &lt;td&gt;Polyglot- Java Scala PHP .Net&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 14 (13th August-19th August)&lt;/td&gt;
+      &lt;td&gt;Ployglot- RUST DIY&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 15 (20th August-26th August)&lt;/td&gt;
+      &lt;td&gt;Puppet providers- Index (Detailed ) Create a separate page for each of the Puppet Providers Add Related Image to each subsection to make it more interactive and more engaging.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 16 ( 27th August-2nd September)&lt;/td&gt;
+      &lt;td&gt;Puppet Services -Index Create dedicated sections for each services Final proofreading and submission after discussion with the community&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Week 17 ( 3rd September -9th September)&lt;/td&gt;
+      &lt;td&gt;Adding various images and screenshots,wherever possible. Request the mentor feedback  Wok on improvements suggested by the mentor. Submit a project report for evaluation to the mentors Write and submit a report of our experience as  participants’ in Season of Docs&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;project-goals&quot;&gt;Project Goals&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make a neat index to search through the references section with ease&lt;/li&gt;
+  &lt;li&gt;Building a step by step guide for references&lt;/li&gt;
+  &lt;li&gt;Add snippets wherever possible with appropriate images to make it look more attractive.&lt;/li&gt;
+  &lt;li&gt;Include more use cases&lt;/li&gt;
+  &lt;li&gt;Add English translations to already existing Chinese language information&lt;/li&gt;
+  &lt;li&gt;Focus on concrete steps&lt;/li&gt;
+  &lt;li&gt;At end of our project tenure we will definitely make the Reference page perfect &amp;amp; top-notch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;team-goals&quot;&gt;Team Goals&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Weekly  phone calls with each other for discussion&lt;/li&gt;
+  &lt;li&gt;Also setup a personalized channel for small discussions&lt;/li&gt;
+  &lt;li&gt;Check each other’s work and help out&lt;/li&gt;
+  &lt;li&gt;Set weekly goals together during the phone calls&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proposed-budget&quot;&gt;Proposed budget&lt;/h2&gt;
+
+&lt;p&gt;The proposed budget for the entire  project is 1000 USD as decided by the organisation which we intend to divide equally.&lt;/p&gt;</content><author><name>soumi7</name></author><category term="gsod" /><category term="documentation" /><category term="gsod" /><category term="2021" /><category term="project" /><category term="proposal" /><category term="team-proposal" /><summary type="html">PROPOSAL STATEMENT</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-shraddhavp-soumi-combined-reference-proposal/gsod_s.png" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-shraddhavp-soumi-combined-reference-proposal/gsod_s.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hello Wechaty GSoD’21 Technical Writers!</title><link href="https://wechaty.js.org/2021/05/08/gsod-2021-selected-technical-writers/" rel="alternate" type="text/html" title="Hello Wechaty GSoD’21 Technical Writers!" /><published>2021-05-08T00:00:00+00:00</published><updated>2021-05-08T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/08/gsod-2021-selected-technical-writers</id><content type="html" xml:base="https://wechaty.js.org/2021/05/08/gsod-2021-selected-technical-writers/">&lt;p&gt;It’s a great honor for Wechaty to participate in Google Season of Docs 2021
+as one of the great top 30 open-source sponsored projects all over the world！&lt;/p&gt;
+
+&lt;p&gt;The most important thing is,
+the GSoD program helps Wechaty organization to start collaborating
+with many great technical writers all over the world
+for improving the documentation of Wechaty project.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/05-gsod-2021-selected-technical-writers/gsod-banner.png&quot; alt=&quot;Google Season of Docs 2021&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have read our blog post
+&lt;a href=&quot;https://wechaty.js.org/2021/04/30/google-season-of-docs/&quot;&gt;Google Season of Docs ❤️ Wechaty, @huan, Apr 30, 2021&lt;/a&gt;,
+then you must known that we have 15 technical writers have sent proposals before our deadline May 1st.
+After that, before we have the kickoff zoom meeting on May 8,
+we have been contacted by total 24 technical writers,
+which is the most powerful writers team I have ever seen before!&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-writer-selection&quot;&gt;Technical writer selection&lt;/h2&gt;
+
+&lt;p&gt;According to the &lt;a href=&quot;https://developers.google.com/season-of-docs/docs/timeline&quot;&gt;timeline from GSoD’21&lt;/a&gt;,
+we need to hire the technical writers for our organization
+before May 17, 2021 at 18:00 UTC.&lt;/p&gt;
+
+&lt;p&gt;In order to select the most suitable writers for the Wechaty organization,
+we have lots of conversations between the mentors and the candidates
+in our &lt;a href=&quot;https://gitter.im/wechaty/wechaty&quot;&gt;Gitter channel&lt;/a&gt;
+and &lt;a href=&quot;https://groups.google.com/g/wechaty&quot;&gt;Mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After reviewing the proposal and having conversation with all the participants,
+we decided to splict the GSoD’21 to one primary project and five secondary projects
+for the Wechaty GSoD’21 program:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create easy to learn tutorials for beginner users of Wechaty (the primary project)&lt;/li&gt;
+  &lt;li&gt;Improve the How-to guides section&lt;/li&gt;
+  &lt;li&gt;Improve the References section&lt;/li&gt;
+  &lt;li&gt;Improve the Explanations (and Introduction) sections&lt;/li&gt;
+  &lt;li&gt;Reconstruct Wechaty homepage(landing page) with value proposition&lt;/li&gt;
+  &lt;li&gt;Improve the gRPC and OpenAPI ecosystem&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As well as we will have two volunteer for helping mentors
+to manage the project and make sure everything is on track.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-zoom-meeting&quot;&gt;The Zoom Meeting&lt;/h2&gt;
+
+&lt;p&gt;We have great conversations with our GSoD’21 participants,
+and after the deadline of receiving proposals April 30,
+we organized a zoom meeting with all our technical writers.&lt;/p&gt;
+
+&lt;p&gt;In this meeting,
+all the GSoD’21 participants introduceed theirselves
+and presented their proposals
+for the projects that they applied.
+&lt;a href=&quot;https://wechaty.js.org/contributors/huan/&quot;&gt;Huan&lt;/a&gt;
+and &lt;a href=&quot;https://wechaty.js.org/contributors/rui&quot;&gt;Rui&lt;/a&gt;
+introduced the Wechaty project and community to the writer team.&lt;/p&gt;
+
+&lt;p&gt;The following YouTube video is the 3 hours recording
+of our great kick-off meeting of Wechaty GSoD’21 program:&lt;/p&gt;
+
+&lt;div style=&quot;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/hTkM_XPpFfU&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    &quot;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;attendees&quot;&gt;Attendees&lt;/h3&gt;
+
+&lt;p&gt;There are total 20 attendees on our meeting. They are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Huan, Creator of Wechaty,  UTC+8&lt;/li&gt;
+  &lt;li&gt;Rui, Co-creator of Wechaty, UTC+8&lt;/li&gt;
+  &lt;li&gt;Rohitesh, GSoD’20 participant &amp;amp; interested in Volunteering for GSoD’21, UTC +5:30&lt;/li&gt;
+  &lt;li&gt;Jaya Gupta&lt;/li&gt;
+  &lt;li&gt;Vasvi Sood&lt;/li&gt;
+  &lt;li&gt;Ahmed Essam, GSoD’21 participant, GMT+2&lt;/li&gt;
+  &lt;li&gt;Sajen Sarvajith K, GSoD’21 participant,, UTC+05:30&lt;/li&gt;
+  &lt;li&gt;Soumi Bardhan, GSoD’21 participant, UTC+5:50&lt;/li&gt;
+  &lt;li&gt;Abhishek Jaiswal,GSoD’21 participant, UTC+05:30&lt;/li&gt;
+  &lt;li&gt;Simin Liao, GSoD’21 participant and volunteer, UTC+8&lt;/li&gt;
+  &lt;li&gt;Shwetal Soni, GSOD’21 participant, UTC+05:30&lt;/li&gt;
+  &lt;li&gt;Mukosa Joseph Mawa, GSOD’21 participant, UTC +03:00&lt;/li&gt;
+  &lt;li&gt;Rufai Mustapha, GSOD’21 participant, UTC +01:00&lt;/li&gt;
+  &lt;li&gt;Souvik Biswas, GSoD’21 participant, UTC +05:30&lt;/li&gt;
+  &lt;li&gt;Shraddha Prasad , GSoD’21 participant, UTC +05:30&lt;/li&gt;
+  &lt;li&gt;Anirudh T.P.V.S, GSoD’21 participant, UTC+8&lt;/li&gt;
+  &lt;li&gt;Chris Estepa, GSoD’21 participant, UTC +8&lt;/li&gt;
+  &lt;li&gt;David Atanda, GSoD’21 participant, UTC +1&lt;/li&gt;
+  &lt;li&gt;Arnab Saha,GSod’21 participant(landing pages)&lt;/li&gt;
+  &lt;li&gt;Rajiv Ranjan Singh, Interested in Volunteering for GSoD ‘21, IST (UTC +5:30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/05-gsod-2021-selected-technical-writers/group-photo.webp&quot; alt=&quot;Google Season of Docs 2021: Wechaty GSoD'21 Group Photo&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;agendas&quot;&gt;Agendas&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=101s&quot;&gt;0:01:41&lt;/a&gt; 1. Introducing the Meeting Agenda&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=188s&quot;&gt;0:03:08&lt;/a&gt; 2. Self-introduction: Huan&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=375s&quot;&gt;0:06:15&lt;/a&gt; 3. Self-introduction: Rui&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=555s&quot;&gt;0:09:15&lt;/a&gt; 4. Self-introducing: Technical Writers&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=1493s&quot;&gt;0:24:53&lt;/a&gt; 5. Introducing Wechaty&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=1777s&quot;&gt;0:29:37&lt;/a&gt; 6. Introducing GSoD Project List&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=2506s&quot;&gt;0:41:46&lt;/a&gt; 7. Introducing Received Proposals&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=2681s&quot;&gt;0:44:41&lt;/a&gt; 8. Primary Project: Tutorial&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=2733s&quot;&gt;0:45:33&lt;/a&gt; 8.1 Tutorial Proposal from Souvik Biswas&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=2964s&quot;&gt;0:49:24&lt;/a&gt; 8.2 Tutorial Proposal from Shwetal Soni&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=3619s&quot;&gt;1:00:19&lt;/a&gt; 9. Landing Page Proposal from Sajen Sarvajith K&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=4320s&quot;&gt;1:12:00&lt;/a&gt; 10. Introduction &amp;amp; Explanation Proposal from Mukosa Joseph Mawa&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=5024s&quot;&gt;1:23:44&lt;/a&gt; 11.1. How-to Guides Proposal from Vasvi Sood&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=5258s&quot;&gt;1:27:38&lt;/a&gt; 11.2. How-to Guides Proposal from Abhishek Jaiswal&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=5585s&quot;&gt;1:33:05&lt;/a&gt; 12. References Proposal from Shraddha Vasant Prasad&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=6060s&quot;&gt;1:41:00&lt;/a&gt; 13. Volunteer Project&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=6060s&quot;&gt;1:43:00&lt;/a&gt; 13.1 Volunteer Proposal from Rohitesh Jain&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=6342s&quot;&gt;1:45:42&lt;/a&gt; 13.2 Volunteer Proposal from Vicky Liao&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=7069s&quot;&gt;1:57:49&lt;/a&gt; 14. Budget Plan for Stipends&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=7528s&quot;&gt;2:05:28&lt;/a&gt; 15. Webmaster Tools&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTkM_XPpFfU&amp;amp;t=7593s&quot;&gt;2:06:33&lt;/a&gt; 16. Q&amp;amp;A&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can learn more from our &lt;a href=&quot;https://docs.google.com/document/d/1fVCk8qRYc4RKGMf2UY5HOe07hEhPUOpGC34v88GEFJg/edit#heading=h.edr3nzd8l43b&quot;&gt;meeting notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;documentation-style-guide&quot;&gt;Documentation style guide&lt;/h3&gt;
+
+&lt;p&gt;We should always follow the
+&lt;a href=&quot;https://developers.google.com/style&quot;&gt;Google developer documentation style guide&lt;/a&gt;,
+which provides for anyone writing developer documentation.&lt;/p&gt;
+
+&lt;p&gt;Learn more from &lt;a href=&quot;https://developers.google.com/tech-writing/resources&quot;&gt;Google technical writing resources&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;documentation-system&quot;&gt;Documentation system&lt;/h3&gt;
+
+&lt;p&gt;Wechaty documentation has been &lt;a href=&quot;https://wechaty.js.org/2021/03/25/google-season-of-docs-documentation-system/&quot;&gt;adapted to the documentation system&lt;/a&gt; by @huan on Mar 25, 2021.&lt;/p&gt;
+
+&lt;p&gt;We should always follow the documentation system by strictly aligning our docs to the following chart:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/05-gsod-2021-selected-technical-writers/doc-sys-overview.png&quot; alt=&quot;Documentation System: Tutorials, How-to Guides, Reference, Explanation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Learn more from:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://documentation.divio.com/&quot;&gt;Documentation System Official Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/t4vKPhjcMZg&quot;&gt;YouTube: What nobody tells you about documentation, Daniele Procida, 2017, PyCon AU&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;gsod21-projects-brief&quot;&gt;GSoD’21 projects brief&lt;/h3&gt;
+
+&lt;p&gt;The project 1-4 is strictly defined by the documentation system, and they must follow the &lt;strong&gt;do not go out of scope&lt;/strong&gt; rule:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2021/05-gsod-2021-selected-technical-writers/do-not-go-out-of-scope.png&quot; alt=&quot;Documentation system: do not go out of scope&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Credit: &lt;a href=&quot;https://documentation.divio.com/introduction/&quot;&gt;Documentation system: Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;project-1-tutorials&quot;&gt;Project 1: Tutorials&lt;/h4&gt;
+
+&lt;p&gt;Tutorials are &lt;em&gt;lessons&lt;/em&gt; that take the reader by the hand
+through a series of steps to complete a project of some kind.
+They are what your project needs in order to show a beginner that
+they can achieve something with it.&lt;/p&gt;
+
+&lt;p&gt;They are wholly &lt;strong&gt;learning-oriented&lt;/strong&gt;, and specifically,
+they are oriented towards &lt;em&gt;learning how&lt;/em&gt; rather than &lt;em&gt;learning that&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You are the teacher&lt;/strong&gt;,
+and you are &lt;strong&gt;responsible&lt;/strong&gt; for what the student will do.
+Under &lt;strong&gt;your&lt;/strong&gt; instruction,
+the student will execute a series of actions to achieve some &lt;strong&gt;end&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The end and the actions are up to you,
+but deciding what they should be can be hard work.
+The end has to be &lt;em&gt;meaningful&lt;/em&gt;,
+but also &lt;em&gt;achievable&lt;/em&gt; for a complete beginner.&lt;/p&gt;
+
+&lt;p&gt;Learn more from &lt;a href=&quot;https://documentation.divio.com/tutorials/&quot;&gt;Documentation system: tutorials&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;project-2-how-to-guides&quot;&gt;Project 2: How-to guides&lt;/h4&gt;
+
+&lt;p&gt;How-to guides take the reader through the steps required to solve a real-world problem.&lt;/p&gt;
+
+&lt;p&gt;They are recipes, directions to achieve a specific end.&lt;/p&gt;
+
+&lt;p&gt;For examples:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;how to create a web form&lt;/em&gt;;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;how to plot a three-dimensional data-set&lt;/em&gt;;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;how to enable LDAP authentication&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;They are wholly &lt;strong&gt;goal-oriented&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How-to guides are wholly distinct from tutorials&lt;/strong&gt; and must not be confused with them:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A tutorial is what you decide a beginner needs to know.&lt;/li&gt;
+  &lt;li&gt;A how-to guide is an answer to a question that only a user with some experience could even formulate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more from &lt;a href=&quot;https://documentation.divio.com/how-to-guides/&quot;&gt;Documentation system: how-to guides&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;project-3-reference&quot;&gt;Project 3: Reference&lt;/h4&gt;
+
+&lt;p&gt;Reference guides are &lt;em&gt;technical descriptions of the machinery&lt;/em&gt; and how to operate it.&lt;/p&gt;
+
+&lt;p&gt;Reference guides have one job only: to describe.
+They are code-determined,
+because ultimately that’s what they describe:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;key classes&lt;/li&gt;
+  &lt;li&gt;functions&lt;/li&gt;
+  &lt;li&gt;APIs&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;and so they should list things like:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;functions&lt;/li&gt;
+  &lt;li&gt;fields&lt;/li&gt;
+  &lt;li&gt;attributes&lt;/li&gt;
+  &lt;li&gt;methods&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;and set out how to use them.&lt;/p&gt;
+
+&lt;p&gt;Reference material is &lt;strong&gt;information-oriented&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;By all means technical reference can contain examples to illustrate usage,
+but it should not attempt to explain basic concepts,
+or how to achieve common tasks.&lt;/p&gt;
+
+&lt;p&gt;Reference material should be &lt;strong&gt;austere and to the point&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Learn more from &lt;a href=&quot;https://documentation.divio.com/reference/&quot;&gt;Documentation system: reference&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;project-4-explanation&quot;&gt;Project 4: Explanation&lt;/h4&gt;
+
+&lt;p&gt;Explanation, or discussions, &lt;em&gt;clarify and illuminate a particular topic&lt;/em&gt;.
+They broaden the documentation’s coverage of a topic.&lt;/p&gt;
+
+&lt;p&gt;They are &lt;strong&gt;understanding-oriented&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Explanations can equally well be described as &lt;em&gt;discussions&lt;/em&gt;;
+they are discursive in nature.
+They are a chance for the documentation to relax and step back from the software,
+taking a wider view,
+illuminating it from a higher level or even from different perspectives.
+You might imagine a discussion document being read at leisure,
+rather than over the code.&lt;/p&gt;
+
+&lt;p&gt;Learn more from &lt;a href=&quot;https://documentation.divio.com/explanation/&quot;&gt;Documentation system: explanation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;project-5-landing-page-with-value-proposation&quot;&gt;Project 5: Landing page with value proposation&lt;/h4&gt;
+
+&lt;p&gt;We has been planning to &lt;a href=&quot;https://wechaty.js.org/2021/05/01/landing-page-value-proposition/&quot;&gt;reconstruct Wechaty landing page with value propositions&lt;/a&gt; for a long time.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Value Proposition&lt;/em&gt; is a statement that answers the ‘why’ someone should do business with you.&lt;/p&gt;
+
+&lt;p&gt;It should convince a potential customer
+why your service or product will be of more value to them
+than similar offerings from your competition.&lt;/p&gt;
+
+&lt;p&gt;You know why your company is great,
+but do your potential customers know what sets your brand apart?&lt;/p&gt;
+
+&lt;p&gt;It must tell your audience:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How your product or service solves/improves problems&lt;/li&gt;
+  &lt;li&gt;What benefits customers can expect&lt;/li&gt;
+  &lt;li&gt;Why customers should buy from you over your competitors&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It introduces you to prospective buyers and helps you
+make a strong first impression.
+That’s why it is so important to have a powerful one.&lt;/p&gt;
+
+&lt;p&gt;Learn more about the value proposition from this great article:
+&lt;a href=&quot;https://www.impactbnd.com/blog/value-proposition-examples&quot;&gt;The 31 Best Value Proposition Examples You Wish You Had&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;project-6-grpc-and-openapi-ecosystem&quot;&gt;Project 6: gRPC and OpenAPI ecosystem&lt;/h4&gt;
+
+&lt;p&gt;Wechaty has two subsystems for providing the gRPC support: one is &lt;a href=&quot;https://github.com/wechaty/grpc&quot;&gt;wechaty/wechaty-grpc&lt;/a&gt;, the other is &lt;a href=&quot;https://github.com/wechaty/openapi&quot;&gt;wechaty/openapi&lt;/a&gt;. The related docs page mainly is at &lt;a href=&quot;http://wechaty.js.org/docs/polyglot/openapi/&quot;&gt;Polyglot/OpenAPI&lt;/a&gt; as well as other pages that have some OpenAPI related docs.&lt;/p&gt;
+
+&lt;p&gt;What we are planning to do is:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Improve all OpenAPI related documentation
+  from our docs website &lt;a href=&quot;https://wechaty.js.org/docs/&quot;&gt;https://wechaty.js.org/docs/&lt;/a&gt;,
+  especially &lt;a href=&quot;http://wechaty.js.org/docs/polyglot/openapi/&quot;&gt;Polyglot/OpenAPI&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Improve READMEs from both
+  &lt;a href=&quot;https://github.com/wechaty/grpc&quot;&gt;wechaty/wechaty-grpc&lt;/a&gt;
+  and &lt;a href=&quot;https://github.com/wechaty/openapi&quot;&gt;wechaty/openapi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Improve the code when necessary for improving the docs in the repository &lt;a href=&quot;https://github.com/wechaty/grpc&quot;&gt;wechaty/wechaty-grpc&lt;/a&gt; and &lt;a href=&quot;https://github.com/wechaty/openapi&quot;&gt;wechaty/openapi&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;project-7-volunteering&quot;&gt;Project 7: Volunteering&lt;/h4&gt;
+
+&lt;p&gt;Volunteers are in charge of helping the organization mentors to manage the GSoD’21 program, which means that the volunteer team has been authorized to mentor the technical writers on behalf of the mentors as long as the decisions are made by the volunteer team, to improve our GSoD’21 outcome for our community.&lt;/p&gt;
+
+&lt;p&gt;The most important roles for the volunteers are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Make sure we are following the &lt;a href=&quot;https://developers.google.com/style&quot;&gt;Google Developer Documentation Style Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Make sure we are following the &lt;a href=&quot;https://documentation.divio.com&quot;&gt;Documentation System&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Make sure we are following the &lt;a href=&quot;https://developers.google.com/season-of-docs/docs/admin-guide&quot;&gt;Organization administrator guide&lt;/a&gt; and performing &lt;a href=&quot;https://developers.google.com/season-of-docs/docs/admin-responsibilities&quot;&gt;Organization administrator responsibilities&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Organize team activities as usual (review/approve/meetings/blogs/evaluations/reports)&lt;/li&gt;
+  &lt;li&gt;Make decisions on behalf of mentors when necessary for good&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;grants&quot;&gt;Grants&lt;/h2&gt;
+
+&lt;p&gt;The grants from Google will be split as following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tutorials: $5k&lt;/li&gt;
+  &lt;li&gt;How-to guides: $1k&lt;/li&gt;
+  &lt;li&gt;References: $1k&lt;/li&gt;
+  &lt;li&gt;Explanations: $1k&lt;/li&gt;
+  &lt;li&gt;Landing page with value proposition: $1k&lt;/li&gt;
+  &lt;li&gt;gRPC and OpenAPI ecosystem: $1k&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The volunteers will get stipends $500 for each.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-base-grant&quot;&gt;1. Base grant&lt;/h3&gt;
+
+&lt;p&gt;The base grants will be the 80% of the each grant.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-performance-grant&quot;&gt;2. Performance grant&lt;/h3&gt;
+
+&lt;p&gt;The performance grants will be the 20% of the each grant.&lt;/p&gt;
+
+&lt;p&gt;It will be voted by the writer themselves (who is in the same team)
+with the volunteers after the project has been finished.
+The rule is that everyone has 10 points
+which can be used to vote for the performance grant.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-example-performance-grant-voting&quot;&gt;3. Example: performance grant voting&lt;/h3&gt;
+
+&lt;p&gt;Two writers A and B are working together share a $1k project.&lt;/p&gt;
+
+&lt;p&gt;The base grants will be $1,000 * 80% = $800,
+A and B will share $800 equally,
+which means that A will get $400 and B will get $400 as well
+for their base grants.&lt;/p&gt;
+
+&lt;p&gt;The performance grants will be $1,000 * 20% = $200.
+According to the performance grants caculating formula,
+if we assuming the following vote result,
+then we will get the following distributing result:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Vote from A: A:4 B:6&lt;/li&gt;
+  &lt;li&gt;Vote from B: A:7 B:3&lt;/li&gt;
+  &lt;li&gt;Final percentage result:
+    &lt;ol&gt;
+      &lt;li&gt;A: (4+7)/20 * 100% = 55%&lt;/li&gt;
+      &lt;li&gt;B: (6+3)/20 * 100% = 45%&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Final distributing result:
+    &lt;ol&gt;
+      &lt;li&gt;A: 55% * $200 = $110&lt;/li&gt;
+      &lt;li&gt;B: 45% * $200 = $90&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In our practice we need to add C and D which is our volunteers, that’s it!&lt;/p&gt;
+
+&lt;h3 id=&quot;4-thank-you-bonus&quot;&gt;4. Thank-you bonus&lt;/h3&gt;
+
+&lt;p&gt;The “Thank-you bonus” is for those GSoD’21 technical writers
+who has not been selected in the year 2021
+and meet the following requirements:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;has submitted qualified proposal before the deadline (May 1st)&lt;/li&gt;
+  &lt;li&gt;has submitted PR for improving the Wechaty docs and has been merged.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For those technical writers, we have prepared $20
+for thank you for the interest in participating in Wechaty GSoD’21,
+and we hope you will join us in the coming GSoD’22.&lt;/p&gt;
+
+&lt;p&gt;The Thank-you bonus will be distributed
+after we have submited the final report to Google
+and received the second grants from GSoD’21.&lt;/p&gt;
+
+&lt;p&gt;We will prepare a Google Form for collecting the payment information,
+so please stay tuned and remember to come back to us then!&lt;/p&gt;
+
+&lt;h3 id=&quot;6-performance-bonus&quot;&gt;6. Performance bonus&lt;/h3&gt;
+
+&lt;p&gt;The performance bonus is an additional $1,000.00 bonus
+which is for everyone from our technical writer team!&lt;/p&gt;
+
+&lt;p&gt;The rule is simple:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Wechaty organization will make a budget of $1,000.00
+  for this performance bonus&lt;/li&gt;
+  &lt;li&gt;Everyone in our team will have 10 points
+  to vote other teams (skip their own team)&lt;/li&gt;
+  &lt;li&gt;Volunteers and mentors will vote with the same rule&lt;/li&gt;
+  &lt;li&gt;All team share $1,000.00 by the points they get&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example, we have two team A and B:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Vote from A: A:4 B:6&lt;/li&gt;
+  &lt;li&gt;Vote from B: A:7 B:3&lt;/li&gt;
+  &lt;li&gt;Vote from Volunteer 1: A:4 B:6&lt;/li&gt;
+  &lt;li&gt;Vote from Volunteer 2: A:7 B:3&lt;/li&gt;
+  &lt;li&gt;Vote from Mentor 1: A:4 B:6&lt;/li&gt;
+  &lt;li&gt;Vote from Mentor 2: A:7 B:3&lt;/li&gt;
+  &lt;li&gt;Final percentage result:
+    &lt;ol&gt;
+      &lt;li&gt;A: (4+7+4+7+4+7)/60 * 100% = 55%&lt;/li&gt;
+      &lt;li&gt;B: (6+3+6+3+6+3)/60 * 100% = 45%&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Final distributing result:
+    &lt;ol&gt;
+      &lt;li&gt;A: 55% * $1,000 = $550&lt;/li&gt;
+      &lt;li&gt;B: 45% * $1,000 = $450&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In our practice we need to add C, D, and E
+which are all of our projects
+(volunteers team will be included as well).&lt;/p&gt;
+
+&lt;p&gt;That’s it!&lt;/p&gt;
+
+&lt;h2 id=&quot;wechaty-gsod21-selected-technical-writers&quot;&gt;Wechaty GSoD’21 selected technical writers&lt;/h2&gt;
+
+&lt;p&gt;Here we’d like to announce that the Wechaty GSoD’21 selected technical writers, they are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/contributors/sbis04/&quot;&gt;Souvik Biswas&lt;/a&gt; and &lt;a href=&quot;https://wechaty.js.org/contributors/shwetalsoni/&quot;&gt;Shwetal Soni&lt;/a&gt; for &lt;a href=&quot;https://wechaty.js.org/2021/05/11/gsod-2021-team-proposal-tutorials/&quot;&gt;Create easy to learn tutorials for beginner users of Wechaty&lt;/a&gt; (&lt;a href=&quot;https://docs.google.com/document/d/16MDUHguYxlHXxXH830I1OskEFml8_tdUzhThXYUqbn8/edit#heading=h.ja5jroiki3r3&quot;&gt;team proposal&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/contributors/vasvi/&quot;&gt;Vasvi Sood&lt;/a&gt; and &lt;a href=&quot;https://wechaty.js.org/contributors/abhishek/&quot;&gt;Abhishek Jaiswal&lt;/a&gt; for &lt;a href=&quot;https://wechaty.js.org/2021/05/12/gsod-2021-how-to-guide-team-proposal/&quot;&gt;Improve the How-to guides section&lt;/a&gt; (&lt;a href=&quot;https://docs.google.com/document/d/1x4FnMkvdAaeDn7iNvNlzJ9ykjaBMouJibOznyTYchRY/edit&quot;&gt;team proposal&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/contributors/shraddhavp/&quot;&gt;Shraddha Vasant Prasad&lt;/a&gt; and &lt;a href=&quot;https://wechaty.js.org/contributors/soumi7/&quot;&gt;Soumi Bardhan&lt;/a&gt; for &lt;a href=&quot;https://wechaty.js.org/2021/05/11/shraddhavp-soumi-combined-reference-proposal/&quot;&gt;Improve the References section&lt;/a&gt; (&lt;a href=&quot;https://docs.google.com/document/d/1ACh3weTzbuPeXG6Qr9Jq7ffRnA9Floz-qt-8nQ3bqLI/&quot;&gt;team proposal&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/contributors/nibble0101/&quot;&gt;Mukosa Joseph Mawa&lt;/a&gt; and Chris Estepa for &lt;a href=&quot;https://wechaty.js.org/2021/05/13/gsod-2021-improve-introduction-and-explanation-project-joint-proposal/&quot;&gt;Improve the Explanations (and Introduction) sections&lt;/a&gt; (&lt;a href=&quot;https://docs.google.com/document/d/1VxIByga8Lui6raoyrosfvjQ8zelpwk-1ci7uk8mZ57M/edit#&quot;&gt;team proposal&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/contributors/sajenjeshan1222/&quot;&gt;Sajen Sarvajith k&lt;/a&gt; and Arnab Saha for &lt;a href=&quot;https://wechaty.js.org/2021/05/12/gsod-2021-reconstruct-landing-page-team-proposal/&quot;&gt;Reconstruct Wechaty homepage(landing page) with value proposition&lt;/a&gt; (&lt;a href=&quot;https://docs.google.com/document/d/1Ri8MpSC5fJQCZN7txai_imLe16Qh4BcPF24ZNugxDuk/edit#&quot;&gt;team proposal&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/contributors/iamrajiv/&quot;&gt;Rajiv Singh&lt;/a&gt; for Improve the gRPC and OpenAPI ecosystem (&lt;a href=&quot;https://github.com/iamrajiv/GSoD-2021/blob/master/GSoD_2021_Project_Proposal.md&quot;&gt;proposal&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/contributors/rohitesh-kumar-jain/&quot;&gt;Rohitesh Kumar Jain&lt;/a&gt; and &lt;a href=&quot;https://wechaty.js.org/contributors/proudofsimin/&quot;&gt;Simin Liao (廖思閔)&lt;/a&gt; for &lt;a href=&quot;https://wechaty.js.org/2021/05/12/gsod-2021-volunteering-proposal/&quot;&gt;Volunteering&lt;/a&gt; (&lt;a href=&quot;https://docs.google.com/document/d/1Twl2sMIcpaRLC38Hndbn73U-IzWt2pEdLgdnYjsoVF8/&quot;&gt;team proposal&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Welcome the above 13 technical writers onboarding, it’s so great to have you all in our Wechaty organization community, cheers!&lt;/p&gt;</content><author><name>huan</name></author><category term="gsod" /><category term="announcement" /><category term="google" /><category term="gsod" /><category term="event" /><category term="2021" /><category term="zoom" /><category term="news" /><category term="featured" /><category term="sticky" /><category term="docs" /><summary type="html">It’s a great honor for Wechaty to participate in Google Season of Docs 2021 as one of the great top 30 open-source sponsored projects all over the world！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-gsod-2021-selected-technical-writers/gsod-meeting-teasor.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-gsod-2021-selected-technical-writers/gsod-meeting-teasor.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Proposal for Volunteering in GSoD ‘21</title><link href="https://wechaty.js.org/2021/05/06/gsod-2021-proposal-for-volunteering/" rel="alternate" type="text/html" title="Proposal for Volunteering in GSoD ‘21" /><published>2021-05-06T00:00:00+00:00</published><updated>2021-05-06T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/06/gsod-2021-proposal-for-volunteering</id><content type="html" xml:base="https://wechaty.js.org/2021/05/06/gsod-2021-proposal-for-volunteering/">&lt;h2 id=&quot;create-easy-to-learn-tutorials-for-beginner-users-of-wechaty&quot;&gt;Create easy to learn tutorials for beginner users of Wechaty&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Name: Rajiv Ranjan Singh&lt;/li&gt;
+  &lt;li&gt;Email: rajivperfect007@gmail.com&lt;/li&gt;
+  &lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/iamrajiv&quot;&gt;https://github.com/iamrajiv&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Website: &lt;a href=&quot;https://iamrajiv.github.io&quot;&gt;https://iamrajiv.github.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Region: Bengaluru, Karnataka, India&lt;/li&gt;
+  &lt;li&gt;Time Zone: India Standard Time (GMT+5:30)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;about-me&quot;&gt;About Me&lt;/h3&gt;
+
+&lt;p&gt;I considered myself a Polymath. I believe in rigorous and intuitive learning. Spend the majority of the time exploring different types of algorithms and contributing to open source.&lt;/p&gt;
+
+&lt;p&gt;I am fascinated by the extensive impact computers can have on solving real-world problems. My interest lies in the fields of Algorithms, Computational Science, and Distributed computing.&lt;/p&gt;
+
+&lt;h3 id=&quot;prior-experiences&quot;&gt;Prior Experiences&lt;/h3&gt;
+
+&lt;p&gt;I have completed GSoD ‘20 with gRPC-Gateway, where my work was on Refactoring the Existing Docs Site of gRPC-Gateway, writing docs and tutorials on how to use gRPC-Gateway.&lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://grpc-ecosystem.github.io/grpc-gateway/&quot;&gt;gRPC-Gateway Documentation Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My Google Season of Docs ‘20 project report can be found here - &lt;a href=&quot;https://github.com/iamrajiv/GSoD-2020/blob/master/GSoD_2020_Project_Report.md&quot;&gt;https://github.com/iamrajiv/GSoD-2020/blob/master/GSoD_2020_Project_Report.md&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have participated in various open-source programs like BITSoC ‘20 (2nd place), GSSoC ‘20, JMoC ‘20, etc. Also, I have contributed to many open-source libraries and projects like SymPy, SunPy, SciRuby, Backstage, gRPC-Gateway, SymEngine, Appwrite, etc.&lt;/p&gt;
+
+&lt;p&gt;I am a maintainer and code reviewer for the Tesseract Coding organization. I served as a mentor for Contributor’s Hack, DevScript Winter of Coded (DWoC), GirlScript Summer of Code(GSSoC), Winter of Code (WoC), etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-request&quot;&gt;Project Request&lt;/h3&gt;
+
+&lt;p&gt;Since I already participated in GSoD ‘20, So I think this the right opportunity for me to give back to the community.&lt;/p&gt;
+
+&lt;p&gt;I have experience in improving organizations’ documentation, mentoring and I can use any version control system, so carrying out commands on GitHub will not be a problem. Moreover, what drives me is working on projects that create value for people and give back to the community. If you want someone to do something in the most efficient way possible, you document it. By documenting your processes, you ensure efficiency, consistency, and peace of mind for anyone involved.&lt;/p&gt;
+
+&lt;p&gt;I do not have any other commitments this summer. Therefore, I will be able to manage 5 hrs per week or more for volunteering for this project.&lt;/p&gt;
+
+&lt;h3 id=&quot;responsibilities&quot;&gt;Responsibilities&lt;/h3&gt;
+
+&lt;p&gt;My work as Volunteer:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Going through existing documentation.&lt;/li&gt;
+  &lt;li&gt;Listing down the things that Wechaty documentation is missing and having a discussion with the team.&lt;/li&gt;
+  &lt;li&gt;Collaborating with volunteers and technical writers and promote user documentation on how to conduct and configure Wechaty.&lt;/li&gt;
+  &lt;li&gt;Reviewing the work of technical writers and make sure they are on the right path.&lt;/li&gt;
+  &lt;li&gt;Reviewing the performance metrics of technical writers and auditing the work according to the proposed task.&lt;/li&gt;
+  &lt;li&gt;Helping technical writers at the time of issues and setting up Wechaty environment.&lt;/li&gt;
+  &lt;li&gt;Working with the Technical Steering Committee to prioritize a list of case studies.&lt;/li&gt;
+  &lt;li&gt;Publishing blog posts and reports and sharing the work of Wechaty to a wide range of audiences.&lt;/li&gt;
+  &lt;li&gt;At the end of the program making sure every documentation is properly refactored, all grammar mistakes are fixed, broken hyperlinks are fixed, and documentation is appropriately organized.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Suggestions would like to propose about Wechaty documentation:&lt;/p&gt;
+
+&lt;p&gt;To facilitate a higher volume of documentation and communications, I would like to propose to develop a system for publishing case studies in addition to our technical documentation. In addition, I want to add markdown documents to our contributor’s website for thematic discussions that appeal to a range of audiences.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Developing a content strategy for Wechaty:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Auditing the user experience when navigating Wechaty projects and documentation.&lt;/li&gt;
+      &lt;li&gt;Developing a style guide for Wechaty for consistent documentation.&lt;/li&gt;
+      &lt;li&gt;Designing overarching content workflow that ensures regular content creation, review, and promotion.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Prepare documentation on setting up configuration files:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Making more visual graphs and architecture diagrams about Wechaty workflow and converting old &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.png&lt;/code&gt; images to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.svg&lt;/code&gt; images.&lt;/li&gt;
+      &lt;li&gt;Standardize documentation across all of our repositories and improve navigation between Wechaty projects.&lt;/li&gt;
+      &lt;li&gt;Auditing the existing documentation and regarding Wechaty configuration as this is currently fragmented and difficult to navigate.&lt;/li&gt;
+      &lt;li&gt;Providing a beginner-friendly tutorial.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will also suggest having multiple milestones to ensure that the technical writer has been following up with our requirements throughout the project duration.&lt;/p&gt;
+
+&lt;h3 id=&quot;communication&quot;&gt;Communication&lt;/h3&gt;
+
+&lt;p&gt;I will be in regular contact with technical writers using Email, Gitter, and other communication mediums. In addition, I will assist technical writers with systems documentation and unearthing the technical aspects of Wechaty.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-budget--availability&quot;&gt;Project Budget &amp;amp; Availability&lt;/h3&gt;
+
+&lt;p&gt;Availability: I will devote 4-5 hours per week from May to November.&lt;/p&gt;
+
+&lt;p&gt;Proposal for Volunteering Doc Link: &lt;a href=&quot;https://github.com/iamrajiv/GSoD-2021/blob/master/GSoD_2021_Proposal_for_Volunteering.md&quot;&gt;https://github.com/iamrajiv/GSoD-2021/blob/master/GSoD_2021_Proposal_for_Volunteering.md&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/season-of-docs/docs&quot;&gt;Season of Docs Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wechaty.js.org/docs/gsod/2021/&quot;&gt;Wechaty Google Season of Docs 2021 proposal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>iamrajiv</name></author><category term="gsod" /><category term="google" /><category term="gsod" /><category term="introduction" /><category term="proposal" /><category term="volunteering" /><summary type="html">Create easy to learn tutorials for beginner users of Wechaty</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-gsod-2021-proposal-for-volunteering/gsod-2021.webp" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-gsod-2021-proposal-for-volunteering/gsod-2021.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Vasvi Sood: 2021 Google Season of Docs Application</title><link href="https://wechaty.js.org/2021/05/06/vasvi-applicant-for-technical-writer-gsod/" rel="alternate" type="text/html" title="Vasvi Sood: 2021 Google Season of Docs Application" /><published>2021-05-06T00:00:00+00:00</published><updated>2021-05-06T00:00:00+00:00</updated><id>https://wechaty.js.org/2021/05/06/vasvi-applicant-for-technical-writer-gsod</id><content type="html" xml:base="https://wechaty.js.org/2021/05/06/vasvi-applicant-for-technical-writer-gsod/">&lt;p&gt;Sophomore,NIT Hamirpur&lt;/p&gt;
+
+&lt;h2 id=&quot;hi-there-im-vasvi-sood-a-gsod-applicant&quot;&gt;Hi there👋, I’m Vasvi Sood a GSOD applicant&lt;/h2&gt;
+
+&lt;p&gt;I’m currently pursuing my Bachelor’s in Electronics and Communication Engineering from National Institute Of Technology, Hamirpur.
+I have applied for the position of Technical writer in Webchatty.
+Let’s connect:
+&lt;a href=&quot;https://www.linkedin.com/in/vasvi-sood-176610206/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;amp;logo=linkedin&amp;amp;logoColor=white&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://github.com/vasvi-sood&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;amp;logo=github&amp;amp;logoColor=white&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;my-experience-&quot;&gt;My Experience 😇&lt;/h2&gt;
+
+&lt;p&gt;The Wechaty organization is very welcoming for the first time open source contributors. I faced no issues while making my first pull request to the GitHub repository.
+The best part was the transparent and interactive the application process. The mentors were very supportive and offered information that was crucial for beginners like me.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-did-i-apply-️&quot;&gt;Why did I apply 🖋️&lt;/h2&gt;
+
+&lt;p&gt;Comming from a technical background I am well aware about various technologies and developer tools .Story writing has always been my favorite hobby. For me, combining technology
+with my writing abilities is a natural match.
+I share Wechaty’s vision of using simple and descriptive language in documentation to attract developers.
+&lt;a href=&quot;https://docs.google.com/document/d/123CtDluY0zCi5c46se4wF1jJEWHf1lkm5TPrEzysfq0/edit?usp=sharing&quot;&gt;My Proposal&lt;/a&gt;&lt;/p&gt;</content><author><name>vasvi</name></author><category term="gsod" /><category term="documentation" /><category term="gsod" /><category term="2021" /><category term="project" /><category term="proposal" /><summary type="html">Sophomore,NIT Hamirpur</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wechaty.js.org/assets/2021/05-vasvi-applicant-for-technical-writer-gsod/vasvi.png" /><media:content medium="image" url="https://wechaty.js.org/assets/2021/05-vasvi-applicant-for-technical-writer-gsod/vasvi.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
